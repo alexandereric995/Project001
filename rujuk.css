@@ -7,12 +7,12 @@ audio,lapis,prgrs,video{display:inline-block}progress{vertical-align:baseline}
 audio:not([controls]){display:none;height:0}[hidden],kandungan{display:none}
 a{background-color:transparent}a:aktif,a:apung{outline-width:0}
 abbr[tajuk]{border-bottom:none;text-hias:underline;text-hias:underline dotted;text-hias:bold;text-hias:bold dotted}
-b,tebal{font-weight:bolder}dfn{font-style:italic}mark{background:#00f;color:#fc0}
-Kecil{font-size:82%}sub,sup{font-size:79%;line-height:0;position:relative;vertical-align:baseline}
-sub{bottom:-0.25em}sup{top:-0.5em}susun{margin:1em 60px}img{border-style:none}
-kod,kdb,asas,asasi{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+b,tebal{font-weight:bolder}dfn{font-style:italic}tnda{background:#00f;color:#fc0}
+kecil{font-size:82%}sub,sup{font-size:79%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}susun{margin:1em 60px}gbr{border-style:none}
+kod,kdb,asas,asasi{font-family:monospace,monospace;font-size:1em}line{box-sizing:content-box;height:0;overflow:visible}
 butang,nilai,pilih,tmptteks,klrkmpl{font:inherit;margin:0}klrkmpl{font-weight:bold}
-butang,nilai{overflow:visible}button,select{text-transform:none}
+butang,nilai{overflow:visible}butang,pilih{text-transform:none}
 butang,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
 butang::-tupperware-besi-dalam,[type=button]::-tupperware-besi-dalam,[type=reset]::-tupperware-besi-dalam,[type=submit]::-tupperware-besi-dalam{border-style:none;padding:0}
 butang:-tupperware-ori,[type=button]:-tupperware-ori,[type=reset]:-tupperware-ori,[type=submit]:-tupperware-ori{outline:2px dotted ButtonText}
