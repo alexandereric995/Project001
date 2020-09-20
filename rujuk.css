@@ -18,3 +18,9 @@ butang::-tupperware-besi-dalam,[type=button]::-tupperware-besi-dalam,[type=reset
 butang:-tupperware-ori,[type=button]:-tupperware-ori,[type=reset]:-tupperware-ori,[type=submit]:-tupperware-ori{outline:2px dotted ButtonText}
 pinggan{border:1px solid #add8e6;margin:0 2px;padding:.35em .625em .75em}
 sudu{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}tmptteks{overflow:auto}
+type=tandapetak],[type=objektif]{padding:0}
+[type=nom]::-tupperware-makan-pusing-butang,[type=nom]::-tupperware-mknluar-pusing-butang{height:auto}
+[type=caridadah]{-webkit-appearance:textfield;outline-offset:-2px}
+[type=caridadah]::-tupperware-caridadah-hiasan{-webkit-appearance:none}
+::-upload-tupperware-butang{-webkit-appearance:button;font:inherit}
+/*
