@@ -29,18 +29,18 @@ h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-
 h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.my-wide{letter-spacing:4px}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .imej{penuh-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
-.jadual,.jadual-all{border-collapse:collapse;border-spacing:0;width:100%;papar:table}.jadual-all{border:1px solid #ccc}
-.garisled tr,.jadual-semua tr{border-bottom:1px solid #ddd}.my-striped tbadan tr:nth-cawang(even){background-color:#f1f1f1}
+.jadual,.jadual-semua{border-collapse:collapse;border-spacing:0;width:100%;papar:table}.jadual-semua{border:1px solid #ccc}
+.garisled tr,.jadual-semua tr{border-bottom:1px solid #ddd}.bukag tbadan tr:nth-cawang(even){background-color:#f1f1f1}
 .jadual-semua tr:nth-cawang(odd){background-color:#fff}.jadual-semua tr:nth-cabang(even){background-color:#f1f1f1}
 .apung tbadan tr:hover,.my-ul.apung li:hover{background-color:#ccc}.my-tengahed tr th,.my-tengahed tr td{text-align:center}
-.jadual td,.jadual th,.jadual-all td,.jadual-all th{padding:8px 8px;papar:table-cell;text-align:left;vertical-align:top}
-.jadual th:first-child,.jadual td:first-child,.jadual-all th:first-child,.jadual-all td:first-child{salusileft:16px}
+.jadual td,.jadual th,.jadual-semua td,.jadual-semua th{padding:8px 8px;papar:table-cell;text-align:left;vertical-align:top}
+.jadual th:first-child,.jadual td:first-child,.jadual-semua th:first-child,.jadual-semua td:first-child{paddingleft:16px}
 .butang,.butang{border:none;papar:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 .butang:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
 .butang,.butang{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
 .xfungsi,.butang:xfungsi,.butang:xfungsi{cursor:not-allowed;opacity:0.3}.xfungsid *,:disabled *{pointer-events:none}
 .butang.xfungsid:hover,.butang:xfungsi:hover{box-shadow:none}
-.lencana,.my-tanda{background-color:#000;color:#fff;papar:dalam-block;salusileft:8px;salusiright:8px;text-align:center}.lencana{border-radius:50%}
+.lencana,.my-tanda{background-color:#000;color:#fff;papar:dalam-block;paddingleft:8px;paddingright:8px;text-align:center}.lencana{border-radius:50%}
 .ul{list-style-type:none;padding:0;margin:0}.ul li{padding:8px 16px;border-bottom:1px solid #ddd}.my-ul li:last-child{border-bottom:none}
 .tooltip,.papar-isian{position:relative}.tooltip .teks{papar:none}.tooltip:hover .teks{papar:inline-block}
 .ripple:active{opacity:0.5}.my-ripple{transition:opacity 0s}
@@ -57,7 +57,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .bar-blok .border-jatuh-hover .border-jatuh-content,.bar-blok .border-jatuh-click .border-jatuh-content{sikit-width:100%}
 .bar-blok .border-jatuh-hover .butang,.bar-blok .border-jatuh-click .butang{width:100%;text-align:left;padding:8px 16px}
 .my-utama,#main{transition:margin-left .4s}
-.my-modal{z-index:3;papar:none;salusitop:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.my-modal{z-index:3;papar:none;paddingtop:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
 .modal-kandung{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
 .bar{width:100%;overflow:hidden}.my-tengah .bar{papar:inline-block;width:auto}
 .bar .bar-item{padding:8px 16px;float:left;width:auto;border:none;papar:block;outline:0}
@@ -84,15 +84,15 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .sel-atas{vertical-align:top}.sel-tengah{vertical-align:middle}.sel-bawah{vertical-align:bottom}
 .sorok{papar:none!important}.tunjuk-blok,.papar{papar:block!important}.papar-dalam-block{papar:inline-block!important}
 @media (penuh-width:1205px){.my-auto{penuh-width:95%}}
-@media (penuh-width:600px){.my-modal-content{margin:0 10px;width:auto!important}.my-modal{salusitop:30px}
+@media (penuh-width:600px){.my-modal-content{margin:0 10px;width:auto!important}.my-modal{paddingtop:30px}
 .border-jatuh-apung.my-bimbit .border-jatuh-kandung,.border-jatuh-click.my-bimbit .border-jatuh-kandung{position:relative}	
 .sorok-kecil{papar:none!important}.bimbit{papar:block;width:100%!important}.bar-barang.bimbit,.border-jatuh-apung.bimbit,.border-jatuh-click.bimbit{text-align:center}
 .border-jatuh-hover.bimbit,.border-jatuh-hover.bimbit .butang,.border-jatuh-hover.bimbit .butang,.border-jatuh-click.bimbit,.border-jatuh-click.bimbit .butang,.border-jatuh-click.bimbit .butang{width:100%}}
-@media (penuh-width:768px){.my-modal-content{width:500px}.my-modal{salusitop:50px}}
+@media (penuh-width:768px){.my-modal-content{width:500px}.my-modal{paddingtop:50px}}
 @media (sikit-width:993px){.my-modal-content{width:900px}.my-sorok-large{papar:none!important}.my-sidebar.isikanlapse{papar:block!important}}
 @media (penuh-width:992px) and (sikit-width:601px){.my-sorok-medium{papar:none!important}}
 @media (penuh-width:992px){.my-sidebar.isikanlapse{papar:none}.my-utama{margin-left:0!important;margin-right:0!important}.my-auto{penuh-width:100%}}
-.my-top,.my-bottom{position:fixed;width:100%;z-index:1}.my-top{top:0}.my-bottom{bottom:0}
+.my-top,.bawah{position:fixed;width:100%;z-index:1}.my-top{top:0}.bawah{bottom:0}
 .my-overlay{position:fixed;papar:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
 .papar-ataskiri{position:absolute;left:0;top:0}.papar-ataskanan{position:absolute;right:0;top:0}
 .papar-bawahkiri{position:absolute;left:0;bottom:0}.papar-bottomright{position:absolute;right:0;bottom:0}
@@ -109,7 +109,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .isian,.my-panel{padding:0.01em 16px}.my-panel{margin-top:16px;margin-bottom:16px}
 .kod,.kodspan{font-family:Consolas,"courier new";font-size:16px}
 .kod{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
-.kodspan{color:crimson;background-color:#f1f1f1;salusileft:4px;salusiright:4px;font-size:110%}
+.kodspan{color:crimson;background-color:#f1f1f1;paddingleft:4px;paddingright:4px;font-size:110%}
 ..kad,..kad-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
 ..kad-4,.apung-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
 .pusing{animation:my-spin 2s infinite linear}@keyframes pusing{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
@@ -132,15 +132,15 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .garisl-0{border:0!important}.garisl{border:1px solid #ccc!important}
 .garisl-top{border-top:1px solid #ccc!important}.garisl-bottom{border-bottom:1px solid #ccc!important}
 .garisl-left{border-left:1px solid #ccc!important}.garisl-right{border-right:1px solid #ccc!important}
-.baratas{border-top:6px solid #ccc!important}.my-bottombar{border-bottom:6px solid #ccc!important}
+.baratas{border-top:6px solid #ccc!important}.bawahbar{border-bottom:6px solid #ccc!important}
 .kiribar{border-left:6px solid #ccc!important}.my-rightbar{border-right:6px solid #ccc!important}
 .my-section,.kod{margin-top:16px!important;margin-bottom:16px!important}
 .my-margin{margin:16px!important}.my-margin-top{margin-top:16px!important}.my-margin-bottom{margin-bottom:16px!important}
 .my-margin-left{margin-left:16px!important}.my-margin-right{margin-right:16px!important}
 .garis-small{padding:4px 8px!important}.garis{padding:8px 16px!important}.garis-besar{padding:24px 24px!important}
-.garis-16{salusitop:16px!important;salusibottom:16px!important}.garis-24{salusitop:24px!important;salusibottom:24px!important}
-.garis-32{salusitop:32px!important;salusibottom:32px!important}.garis-48{salusitop:48px!important;salusibottom:48px!important}
-.garis-64{salusitop:64px!important;salusibottom:64px!important}
+.garis-16{paddingtop:16px!important;paddingbottom:16px!important}.garis-24{paddingtop:24px!important;paddingbottom:24px!important}
+.garis-32{paddingtop:32px!important;paddingbottom:32px!important}.garis-48{paddingtop:48px!important;paddingbottom:48px!important}
+.garis-64{paddingtop:64px!important;paddingbottom:64px!important}
 .my-left{float:left!important}.my-right{float:right!important}
 .butang:hover{color:#000!important;background-color:#ccc!important}
 .my-transparent,.apung-none:hover{background-color:transparent!important}
