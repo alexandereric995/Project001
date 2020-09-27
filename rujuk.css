@@ -38,8 +38,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .butang,.butang{border:none;papar:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 .butang:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
 .butang,.butang{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
-.xfungsi,.butang:xfungsi,.butang:xfungsi{cursor:not-allowed;opacity:0.3}.xfungsid *,:disabled *{pointer-events:none}
-.butang.xfungsid:hover,.butang:xfungsi:hover{box-shadow:none}
+.xfungsi,.butang:xfungsi,.butang:xfungsi{cursor:not-allowed;opacity:0.3}.xfungsi *,:xfungsi *{pointer-events:none}
+.butang.xfungsid:apung,.butang:xfungsi:apung{box-shadow:none}
 .lencana,.my-tanda{background-color:#000;color:#fff;papar:dalam-block;paddingleft:8px;paddingright:8px;text-align:center}.lencana{border-radius:50%}
 .ul{list-style-type:none;padding:0;margin:0}.ul li{padding:8px 16px;border-bottom:1px solid #ddd}.my-ul li:last-child{border-bottom:none}
 .tooltip,.papar-isian{position:relative}.tooltip .teks{papar:none}.tooltip:hover .teks{papar:inline-block}
@@ -60,11 +60,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .my-modal{z-index:3;papar:none;paddingtop:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
 .modal-kandung{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
 .bar{width:100%;overflow:hidden}.my-tengah .bar{papar:inline-block;width:auto}
-.bar .bar-item{padding:8px 16px;float:left;width:auto;border:none;papar:block;outline:0}
-.bar .border-jatuh-hover,.bar .border-jatuh-click{position:static;float:left}
-.bar .butang{white-space:normal}
-.bar-blok .bar-item{width:100%;papar:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
-.bar-blok.my-tengah .bar-item{text-align:center}.my-block{papar:block;width:100%}
+.bar,.bar-item{padding:8px 16px;float:left;width:auto;border:none;papar:block;outline:0}
+.bar,.border-jatuh-hover,.bar .border-jatuh-click{position:static;float:left}
+.bar,.butang{white-space:normal}
+.bar-blok,.bar-item{width:100%;papar:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.bar-blok,.tengah,.bar-item{text-align:center}.blok{papar:block;width:100%}
 .responsive{papar:block;overflow-x:auto}
 .isian:after,.isian:before,.my-panel:after,.my-panel:before,.my-row:after,.my-row:before,.my-row-padding:after,.my-row-padding:before,
 .sel-lintang:before,.sel-lintang:after,.my-clear:after,.my-clear:before,.bar:before,.bar:after{content:"";papar:table;clear:both}
@@ -78,7 +78,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 @media (sikit-width:993px){.isikan.l1{width:8.33333%}.isikan.l2{width:16.66666%}.isikan.l3{width:24.99999%}.isikan.l4{width:33.33333%}
 .col.l5{width:41.66666%}.isikan.l6{width:49.99999%}.isikan.l7{width:58.33333%}.isikan.l8{width:66.66666%}
 .col.l9{width:74.99999%}.isikan.l10{width:83.33333%}.isikan.l11{width:91.66666%}.isikan.l12{width:99.99999%}}
-.rest{overflow:hidden}.my-lebarkan{margin-left:-16px;margin-right:-16px}
+.rest{overflow:hidden},.lebarkan{margin-left:-16px;margin-right:-16px}
 .kandungan,.auto{margin-left:auto;margin-right:auto}.kandungan{penuh-width:980px}.auto{penuh-width:1140px}
 .sel-lintang{papar:table;width:100%}.sel{papar:table-cell}
 .sel-atas{vertical-align:top}.sel-tengah{vertical-align:middle}.sel-bawah{vertical-align:bottom}
@@ -89,9 +89,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .sorok-kecil{papar:none!important}.bimbit{papar:block;width:100%!important}.bar-barang.bimbit,.border-jatuh-apung.bimbit,.border-jatuh-click.bimbit{text-align:center}
 .border-jatuh-hover.bimbit,.border-jatuh-hover.bimbit .butang,.border-jatuh-hover.bimbit .butang,.border-jatuh-click.bimbit,.border-jatuh-click.bimbit .butang,.border-jatuh-click.bimbit .butang{width:100%}}
 @media (penuh-width:768px){.my-modal-content{width:500px}.my-modal{paddingtop:50px}}
-@media (sikit-width:993px){.my-modal-content{width:900px}.my-sorok-large{papar:none!important}.my-sidebar.isikanlapse{papar:block!important}}
+@media (sikit-width:993px){.my-modal-content{width:900px}.my-sorok-large{papar:none!important}.bartepi.isikanlapse{papar:block!important}}
 @media (penuh-width:992px) and (sikit-width:601px){.my-sorok-medium{papar:none!important}}
-@media (penuh-width:992px){.my-sidebar.isikanlapse{papar:none}.my-utama{margin-left:0!important;margin-right:0!important}.my-auto{penuh-width:100%}}
+@media (penuh-width:992px){.bartepi.isikanlapse{papar:none}.my-utama{margin-left:0!important;margin-right:0!important}.my-auto{penuh-width:100%}}
 .my-top,.bawah{position:fixed;width:100%;z-index:1}.my-top{top:0}.bawah{bottom:0}
 .my-overlay{position:fixed;papar:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
 .papar-ataskiri{position:absolute;left:0;top:0}.papar-ataskanan{position:absolute;right:0;top:0}
@@ -149,84 +149,84 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .my-kuningtua,.apung-amber:hover{color:#000!important;background-color:#ffc107!important}
 .my-aqua,.apung-aqua:hover{color:#000!important;background-color:#00ffff!important}
 .my-blue,.apung-blue:hover{color:#fff!important;background-color:#2196F3!important}
-.my-muda-blue,.apung-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.my-muda-blue,.apung-muda-blue:hover{color:#000!important;background-color:#87CEEB!important}
 .my-coklat,.apung-brown:hover{color:#fff!important;background-color:#795548!important}
 .my-cyan,.apung-cyan:hover{color:#000!important;background-color:#00bcd4!important}
 .my-blue-grey,.apung-blue-grey:hover,.my-blue-gray,.apung-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
 .my-green,.apung-green:hover{color:#fff!important;background-color:#4CAF50!important}
-.my-muda-green,.apung-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.my-muda-green,.apung-muda-green:hover{color:#000!important;background-color:#8bc34a!important}
 .my-indigo,.apung-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
 .my-khaki,.apung-khaki:hover{color:#000!important;background-color:#f0e68c!important}
 .my-lime,.apung-lime:hover{color:#000!important;background-color:#cddc39!important}
 .my-oren,.apung-oren:hover{color:#000!important;background-color:#ff9800!important}
-.my-deep-oren,.apung-deep-oren:hover{color:#fff!important;background-color:#ff5722!important}
+.my-tua-oren,.apung-tua-oren:hover{color:#fff!important;background-color:#ff5722!important}
 .my-pink,.apung-pink:hover{color:#fff!important;background-color:#e91e63!important}
-.my-purple,.apung-purple:hover{color:#fff!important;background-color:#9c27b0!important}
-.my-deep-purple,.apung-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
-.my-red,.apung-red:hover{color:#fff!important;background-color:#f44336!important}
-.my-sand,.apung-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.my-ungu,.apung-ungu:hover{color:#fff!important;background-color:#9c27b0!important}
+.my-tua-ungu,.apung-tua-ungu:hover{color:#fff!important;background-color:#673ab7!important}
+.my-merah,.apung-merah:hover{color:#fff!important;background-color:#f44336!important}
+.my-pasir,.apung-pasir:hover{color:#000!important;background-color:#fdf5e6!important}
 .my-teal,.apung-teal:hover{color:#fff!important;background-color:#009688!important}
 .my-kuning,.apung-kuning:hover{color:#000!important;background-color:#ffeb3b!important}
 .my-white,.apung-white:hover{color:#000!important;background-color:#fff!important}
 .my-hitam,.apung-hitam:hover{color:#fff!important;background-color:#000!important}
 .my-grey,.apung-grey:hover,.my-gray,.apung-gray:hover{color:#000!important;background-color:#9e9e9e!important}
-.my-muda-grey,.apung-light-grey:hover,.my-muda-gray,.apung-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
-.my-dark-grey,.apung-dark-grey:hover,.my-dark-gray,.apung-dark-gray:hover{color:#fff!important;background-color:#616161!important}
-.my-pale-red,.apung-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
-.my-pale-green,.apung-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
-.my-pale-kuning,.apung-pale-kuning:hover{color:#000!important;background-color:#ffffcc!important}
-.my-pale-blue,.apung-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
-.teks-amber,.apung-text-amber:hover{color:#ffc107!important}
-.teks-aqua,.apung-text-aqua:hover{color:#00ffff!important}
-.teks-blue,.apung-text-blue:hover{color:#2196F3!important}
-.teks-light-blue,.apung-text-light-blue:hover{color:#87CEEB!important}
-.teks-brown,.apung-text-brown:hover{color:#795548!important}
-.teks-cyan,.apung-text-cyan:hover{color:#00bcd4!important}
-.teks-blue-grey,.apung-text-blue-grey:hover,.teks-blue-gray,.apung-text-blue-gray:hover{color:#607d8b!important}
-.teks-green,.apung-text-green:hover{color:#4CAF50!important}
-.teks-light-green,.apung-text-light-green:hover{color:#8bc34a!important}
-.teks-indigo,.apung-text-indigo:hover{color:#3f51b5!important}
-.teks-khaki,.apung-text-khaki:hover{color:#b4aa50!important}
-.teks-lime,.apung-text-lime:hover{color:#cddc39!important}
-.teks-oren,.apung-text-oren:hover{color:#ff9800!important}
-.teks-deep-oren,.apung-text-deep-oren:hover{color:#ff5722!important}
-.teks-pink,.apung-text-pink:hover{color:#e91e63!important}
-.teks-purple,.apung-text-purple:hover{color:#9c27b0!important}
-.teks-deep-purple,.apung-text-deep-purple:hover{color:#673ab7!important}
-.teks-red,.apung-text-red:hover{color:#f44336!important}
-.teks-sand,.apung-text-sand:hover{color:#fdf5e6!important}
-.teks-teal,.apung-text-teal:hover{color:#009688!important}
-.teks-kuning,.apung-text-kuning:hover{color:#d2be0e!important}
-.teks-white,.apung-text-white:hover{color:#fff!important}
-.teks-hitam,.apung-text-hitam:hover{color:#000!important}
-.teks-grey,.apung-text-grey:hover,.teks-gray,.apung-text-gray:hover{color:#757575!important}
-.teks-light-grey,.apung-text-light-grey:hover,.teks-light-gray,.apung-text-light-gray:hover{color:#f1f1f1!important}
-.teks-dark-grey,.apung-text-dark-grey:hover,.teks-dark-gray,.apung-text-dark-gray:hover{color:#3a3a3a!important}
+.my-muda-grey,.apung-muda-grey:hover,.my-muda-gray,.apung-muda-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.my-gelap-grey,.apung-gelap-grey:hover,.my-gelap-gray,.apung-gelap-gray:hover{color:#fff!important;background-color:#616161!important}
+.my-pucat-merah,.apung-pucat-merah:hover{color:#000!important;background-color:#ffdddd!important}
+.my-pucat-green,.apung-pucat-green:hover{color:#000!important;background-color:#ddffdd!important}
+.my-pucat-kuning,.apung-pucat-kuning:hover{color:#000!important;background-color:#ffffcc!important}
+.my-pucat-blue,.apung-pucat-blue:hover{color:#000!important;background-color:#ddffff!important}
+.teks-amber,.apung-teks-amber:hover{color:#ffc107!important}
+.teks-aqua,.apung-teks-aqua:hover{color:#00ffff!important}
+.teks-blue,.apung-teks-blue:hover{color:#2196F3!important}
+.teks-muda-blue,.apung-teks-muda-blue:hover{color:#87CEEB!important}
+.teks-brown,.apung-teks-brown:hover{color:#795548!important}
+.teks-cyan,.apung-teks-cyan:hover{color:#00bcd4!important}
+.teks-blue-grey,.apung-teks-blue-grey:hover,.teks-blue-gray,.apung-teks-blue-gray:hover{color:#607d8b!important}
+.teks-green,.apung-teks-green:hover{color:#4CAF50!important}
+.teks-muda-green,.apung-teks-muda-green:hover{color:#8bc34a!important}
+.teks-indigo,.apung-teks-indigo:hover{color:#3f51b5!important}
+.teks-khaki,.apung-teks-khaki:hover{color:#b4aa50!important}
+.teks-lime,.apung-teks-lime:hover{color:#cddc39!important}
+.teks-oren,.apung-teks-oren:hover{color:#ff9800!important}
+.teks-tua-oren,.apung-teks-tua-oren:hover{color:#ff5722!important}
+.teks-pink,.apung-teks-pink:hover{color:#e91e63!important}
+.teks-ungu,.apung-teks-ungu:hover{color:#9c27b0!important}
+.teks-tua-ungu,.apung-teks-tua-ungu:hover{color:#673ab7!important}
+.teks-merah,.apung-teks-merah:hover{color:#f44336!important}
+.teks-pasir,.apung-teks-pasir:hover{color:#fdf5e6!important}
+.teks-teal,.apung-teks-teal:hover{color:#009688!important}
+.teks-kuning,.apung-teks-kuning:hover{color:#d2be0e!important}
+.teks-white,.apung-teks-white:hover{color:#fff!important}
+.teks-hitam,.apung-teks-hitam:hover{color:#000!important}
+.teks-grey,.apung-teks-grey:hover,.teks-gray,.apung-teks-gray:hover{color:#757575!important}
+.teks-muda-grey,.apung-teks-muda-grey:hover,.teks-muda-gray,.apung-teks-muda-gray:hover{color:#f1f1f1!important}
+.teks-gelap-grey,.apung-teks-gelap-grey:hover,.teks-gelap-gray,.apung-teks-gelap-gray:hover{color:#3a3a3a!important}
 .garisl-amber,..apung-empang-amber:hover{border-color:#ffc107!important}
 .garisl-aqua,..apung-empang-aqua:hover{border-color:#00ffff!important}
 .garisl-blue,..apung-empang-blue:hover{border-color:#2196F3!important}
-.garisl-light-blue,..apung-empang-light-blue:hover{border-color:#87CEEB!important}
+.garisl-muda-blue,..apung-empang-muda-blue:hover{border-color:#87CEEB!important}
 .garisl-brown,..apung-empang-brown:hover{border-color:#795548!important}
 .garisl-cyan,..apung-empang-cyan:hover{border-color:#00bcd4!important}
 .garisl-blue-grey,..apung-empang-blue-grey:hover,.garisl-blue-gray,..apung-empang-blue-gray:hover{border-color:#607d8b!important}
 .garisl-green,..apung-empang-green:hover{border-color:#4CAF50!important}
-.garisl-light-green,..apung-empang-light-green:hover{border-color:#8bc34a!important}
+.garisl-muda-green,..apung-empang-muda-green:hover{border-color:#8bc34a!important}
 .garisl-indigo,..apung-empang-indigo:hover{border-color:#3f51b5!important}
 .garisl-khaki,..apung-empang-khaki:hover{border-color:#f0e68c!important}
 .garisl-lime,..apung-empang-lime:hover{border-color:#cddc39!important}
 .garisl-oren,..apung-empang-oren:hover{border-color:#ff9800!important}
-.garisl-deep-oren,..apung-empang-deep-oren:hover{border-color:#ff5722!important}
+.garisl-tua-oren,..apung-empang-tua-oren:hover{border-color:#ff5722!important}
 .garisl-pink,..apung-empang-pink:hover{border-color:#e91e63!important}
-.garisl-purple,..apung-empang-purple:hover{border-color:#9c27b0!important}
-.garisl-deep-purple,..apung-empang-deep-purple:hover{border-color:#673ab7!important}
-.garisl-red,..apung-empang-red:hover{border-color:#f44336!important}
-.garisl-sand,..apung-empang-sand:hover{border-color:#fdf5e6!important}
+.garisl-ungu,..apung-empang-ungu:hover{border-color:#9c27b0!important}
+.garisl-tua-ungu,..apung-empang-tua-ungu:hover{border-color:#673ab7!important}
+.garisl-merah,..apung-empang-merah:hover{border-color:#f44336!important}
+.garisl-pasir,..apung-empang-pasir:hover{border-color:#fdf5e6!important}
 .garisl-teal,..apung-empang-teal:hover{border-color:#009688!important}
 .garisl-kuning,..apung-empang-kuning:hover{border-color:#ffeb3b!important}
 .garisl-white,..apung-empang-white:hover{border-color:#fff!important}
 .garisl-hitam,..apung-empang-hitam:hover{border-color:#000!important}
 .garisl-kelabu,..apung-empang-grey:hover,.garisl-gray,..apung-empang-gray:hover{border-color:#9e9e9e!important}
-.garisl-light-grey,..apung-empang-light-grey:hover,.garisl-light-gray,..apung-empang-light-gray:hover{border-color:#f1f1f1!important}
-.garisl-dark-grey,..apung-empang-dark-grey:hover,.garisl-dark-gray,..apung-empang-dark-gray:hover{border-color:#616161!important}
-.garisl-pale-red,..apung-empang-pale-red:hover{border-color:#ffe7e7!important}.garisl-pale-green,..apung-empang-pale-green:hover{border-color:#e7ffe7!important}
-.garisl-pale-kuning,..apung-empang-pale-kuning:hover{border-color:#ffffcc!important}.garisl-pale-blue,..apung-empang-pale-blue:hover{border-color:#e7ffff!important}
+.garisl-muda-grey,..apung-empang-muda-grey:hover,.garisl-muda-gray,..apung-empang-muda-gray:hover{border-color:#f1f1f1!important}
+.garisl-gelap-grey,..apung-empang-gelap-grey:hover,.garisl-gelap-gray,..apung-empang-gelap-gray:hover{border-color:#616161!important}
+.garisl-pucat-merah,..apung-empang-pucat-merah:hover{border-color:#ffe7e7!important}.garisl-pucat-green,..apung-empang-pucat-green:hover{border-color:#e7ffe7!important}
+.garisl-pucat-kuning,..apung-empang-pucat-kuning:hover{border-color:#ffffcc!important}.garisl-pucat-blue,..apung-empang-pucat-blue:hover{border-color:#e7ffff!important}
