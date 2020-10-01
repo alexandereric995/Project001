@@ -6,7 +6,7 @@
 ' 
 ' Then, gunakan cmd.exe, taipkan "myrt"
 ' Ke bahasa 'altantuya' lebih best? gurau.
-'
+' altantuya v1.0.0
 
 Option Explicit
 
