@@ -73,7 +73,7 @@ private const L_atursegera_ServiceUpdatesNeeded_0_Message = "myrt is not set up 
 
 '''''''''''''''''''''
 ' Bantu - AWAM
-private const L_Bantu_Title_0_Message = "WINDOW MYRT [MALAYSIA REMOTE TOOL] MANAGER"
+private const L_Bantu_Title_0_Message = "WINDOW MYRT [MALAYSIA REMOTE TOOL] MANAGER                                           remote altantuya ver:1.0.0"
 
 private const L_Bantu_Blank_0_Message = "leave_blank"
 
@@ -99,7 +99,7 @@ private const X_Bantu_SeeAlso_aturSSDL_Message = "myrt aturSSDL -alex"
 'Bantu - Bantu
 private const L_BantuBantu_000_0_Message = "Window Malaysia Remote Management (myrt) ialah penerapan Microsoft untuk WS-Protokol Pengurusan yang membenarkan"
 private const L_BantuBantu_001_0_Message = "komunikasi yang lebih baik antara 'local' dan mesin mudah alih menggunakan internet atau web servis. "
-private const L_BantuBantu_001_1_Message = "command protocol diubahsuai oleh:[ALEXANDER ERIC]"
+private const L_BantuBantu_001_1_Message = "command protocol diubahsuai oleh:[ALEXANDER ERIC]                                           "                                            
 private const L_BantuBantu_002_0_Message = "________________________________________________________________________________________________________________"
 private const L_BantuBantu_003_0_Message = "KEGUNAAN:"
 private const L_BantuBantu_004_0_Message = "	myrt OPERASI PUNCA_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
