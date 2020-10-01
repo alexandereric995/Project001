@@ -96,16 +96,16 @@ private const X_Bantu_SeeAlso_aturSSDL_Message = "myrt aturSSDL -alex"
 
 
 '''''''''''''''''''''
-' Bantu - Bantu
+'Bantu - Bantu
 private const L_BantuBantu_000_0_Message = "Window Malaysia Remote Management (myrt) ialah penerapan Microsoft untuk "
 private const L_BantuBantu_001_0_Message = "WS-Protokol Pengurusan yang membenarkan komunikasi yang lebih baik "
 private const L_BantuBantu_001_1_Message = "antara 'local' dan mesin mudah alih menggunakan internet atau web servis.  "
-private const L_BantuBantu_002_0_Message = "command protocal diubahsuai oleh:[ALEXANDER ERIC]"
+private const L_BantuBantu_002_0_Message = "command protocol diubahsuai oleh:[ALEXANDER ERIC]"
 private const L_BantuBantu_003_0_Message = "kegunaan:"
 private const L_BantuBantu_004_0_Message = "  myrt OPERASI PUNCA_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
-private const L_BantuBantu_005_0_Message = "        [@{KUNCI=NILAI[;KUNCI=NILAI]...}]"
-private const L_BantuBantu_007_0_Message = "#beserta commmand command haram yang lain"
-private const L_BantuBantu_008_0_Message = "Untuk bantu mengenai operasi tertentu:"
+private const L_BantuBantu_005_0_Message = "        [@{KUNCI=NILAI[;KUNCI=NILAI]...}]. #BesertaCommandHaramYangLain"
+private const L_BantuBantu_007_0_Message = "__________________________________________________________________________________________________________"
+private const L_BantuBantu_008_0_Message = "Untuk bantuan mengenai operasi tertentu:"
 private const L_BantuBantu_009_0_Message = "	myrt d[apat] 	-alex      Mendapatkan pengurusan maklumat"
 private const L_BantuBantu_010_0_Message = " 	myrt s[et] 	-alex      Mengubah pengurusan informasi."
 private const L_BantuBantu_011_0_Message = "  	myrt c[ipta] 	-alex      Mencipta punca pengurusan segera."
@@ -118,7 +118,8 @@ private const L_BantuBantu_016_0_Message = "  	myrt atursegera -alex  	   Mengat
 private const L_BantuBantu_016_1_Message = "                        	   daripada mesin kawalan yang lain."
 private const L_BantuBantu_016_3_Message = "  	myrt aturSSDL 	-alex      Mengubahsuai keselamatan 'tidak jujur' pada URI yang ada."
 private const L_BantuBantu_016_4_Message = " 	myrt bantumsg 	-alex      Memaparkan kesalahan kod untuk kod yang salah."
-private const L_BantuBantu_017_0_Message = ""
+private const L_BantuBantu_017_0_Message = "_________________________________________________________________________________________________________"
+private const L_BantuBantu_017_0a_Message = "-----------------------------------------------------------------------------------------------------"
 private const L_BantuBantu_018_0_Message = "Untuk Bantu berkaitan hal:"
 private const L_BantuBantu_019_0_Message = " 	myrt bantu uris       	   Bagaimana untuk menyusun punca URIs. p/s Dengar lagu Steel Panther \m/"
 private const L_BantuBantu_020_0_Message = " 	myrt bantu gelar    	   Gelaran lain untuk URIs. p/s dengarlah lagu Avenged Sevenfold"
@@ -129,9 +130,9 @@ private const L_BantuBantu_023_0_Message = " 	myrt bantu keutamaan       Menyedi
 private const L_BantuBantu_024_0_Message = " 	myrt bantu nilai      	   Menyediakan nilai untuk dibuat, set, dan laksana."
 private const L_BantuBantu_025_0_Message = " 	myrt bantu altantuya   	   Mengubah arahan unutuk format, aturan, dan lain-lain."
 private const L_BantuBantu_026_0_Message = " 	myrt bantu kompas      	   Menyediakan informasi alamat."
-
+private const L_BantuBantu_027_0_Message = "__________________________________________________________________________________________________________"
 '''''''''''''''''''''
-' Bantu - dapat
+'Bantu - dapat
 private const L_Bantudapat_000_0_Message = "myrt dapat RESOURCE_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_Bantudapat_001_0_Message = ""
 private const L_Bantudapat_002_0_Message = "Retrieves instances of RESOURCE_URI using specified "
@@ -148,7 +149,7 @@ private const X_Bantudapat_015_0_Message = "  myrt dapat myrt/config/service/cer
 private const L_Bantudapat_016_0_Message = ""
 
 '''''''''''''''''''''
-' Bantu - SET
+'Bantu - SET
 private const L_BantuSet_001_0_Message = "myrt set RESOURCE_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuSet_002_0_Message = "          [@{KEY=""VALUE""[;KEY=""VALUE""]}]"
 private const L_BantuSet_003_0_Message = "          [-file:VALUE]"
@@ -168,7 +169,7 @@ private const X_BantuSet_019_0_Message = "  myrt set myrt/config/service/certmap
 private const L_BantuSet_020_0_Message = ""
 
 '''''''''''''''''''''
-' Bantu - CIPTA
+'Bantu - CIPTA
 private const L_BantuCreate_001_0_Message = "myrt create RESOURCE_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuCreate_002_0_Message = "             [@{KEY=""VALUE""[;KEY=""VALUE""]}]"
 private const L_BantuCreate_003_0_Message = "             [-file:VALUE]"
@@ -192,7 +193,7 @@ private const L_BantuCreate_024_0_Message = ""
 
 
 '''''''''''''''''''''
-' Bantu - BUANG
+'Bantu - BUANG
 private const L_BantuDelete_001_0_Message = "myrt delete RESOURCE_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuDelete_002_0_Message = ""
 private const L_BantuDelete_003_0_Message = "Removes an instance of RESOURCE_URI."
@@ -205,7 +206,7 @@ private const X_BantuDelete_009_0_Message = "  myrt delete myrt/config/service/c
 private const L_BantuDelete_010_0_Message = ""
 
 '''''''''''''''''''''
-' Bantu - SENARAI
+'Bantu - SENARAI
 private const L_BantuEnum_001_0_Message = "myrt enumerate RESOURCE_URI [-ReturnType:Value] [-Shallow]" 
 private const L_BantuEnum_001_1_Message = "         [-BasePropertiesOnly] [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuEnum_002_0_Message = ""
@@ -242,9 +243,9 @@ private const L_BantuEnum_009_0_Message = ""
 private const L_BantuEnum_010_0_Message = "Example: List all instances of Win32_Service class:"
 private const X_BantuEnum_011_0_Message = "  myrt enumerate wmicimv2/Win32_Service"
 private const L_BantuEnum_012_0_Message = ""
-'private const L_BantuEnum_013_0_Message = "Example: List all auto start services that are stopped:"
-'private const X_BantuEnum_014_0_Message = "  myrt enum wmicimv2/* -filter:""select * from win32_service where StartMode=\""Auto\"" and State = \""Stopped\"" """
-'private const L_BantuEnum_015_0_Message = ""
+private const L_BantuEnum_013_0_Message = "Example: List all auto start services that are stopped:"
+private const X_BantuEnum_014_0_Message = "  myrt enum wmicimv2/* -filter:""select * from win32_service where StartMode=\""Auto\"" and State = \""Stopped\"" """
+private const L_BantuEnum_015_0_Message = ""
 private const L_BantuEnum_016_0_Message = "Example: List all shell instances on a machine:"
 private const X_BantuEnum_017_0_Message = "  myrt enum shell/cmd -remote:srv.corp.com"
 private const L_BantuEnum_018_0_Message = ""
@@ -256,7 +257,7 @@ private const X_BantuEnum_023_0_Message = "  myrt enum myrt/config/service/certm
 private const L_BantuEnum_024_0_Message = ""
 
 '''''''''''''''''''''
-' Bantu - LAKSANA
+'Bantu - LAKSANA
 private const L_BantuInvoke_001_0_Message = "myrt invoke ACTION RESOURCE_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuInvoke_002_0_Message = "             [@{KEY=""VALUE""[;KEY=""VALUE""]}]"
 private const L_BantuInvoke_003_0_Message = "             [-file:VALUE]"
@@ -284,7 +285,7 @@ private const L_BantuInvoke_022_1_Message = "Note that all external plugins will
 private const X_BantuInvoke_023_0_Message = "  myrt invoke restore myrt/config/plugin @{}"
 
 '''''''''''''''''''''
-' Bantu - IDENTIFY
+'Bantu - IDENTIFY
 private const X_BantuIdentify_001_0_Message = "myrt identify  [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuIdentify_003_0_Message = ""
 private const L_BantuIdentify_004_0_Message = "Issues an operation against a remote machine to see if the WS-Management "
@@ -297,7 +298,7 @@ private const X_BantuIdentify_010_0_Message = "  myrt identify -remote:www.examp
 
 
 '''''''''''''''''''''
-' Bantu - BantuMSG
+'Bantu - BantuMSG
 private const X_BantuBantuMessaage_001_0_Message = "myrt Bantumsg errorcode"
 private const X_BantuBantuMessaage_002_0_Message = ""
 private const X_BantuBantuMessaage_003_0_Message = "Displays error message associate with the error code."
@@ -305,7 +306,7 @@ private const X_BantuBantuMessaage_004_0_Message = "Example:"
 private const X_BantuBantuMessaage_006_0_Message = " myrt bantumsg 0x5"
 
 '''''''''''''''''''''
-' Bantu - GELAR
+'Bantu - GELAR
 private const L_BantuAlias_001_0_Message = "Aliasing allows shortcuts to be used in place of full Resource URIs."
 private const L_BantuAlias_002_0_Message = "Available aliases and the Resource URIs they substitute for are:"
 private const L_BantuAlias_003_0_Message = ""
@@ -323,7 +324,7 @@ private const L_BantuAlias_014_0_Message = "Example: using alias:"
 private const X_BantuAlias_015_0_Message = "  myrt dapat wmicimv2/Win32_Service?Name=myrt"
 
 '''''''''''''''''''''
-' Bantu - URIS
+'Bantu - URIS
 private const L_BantuUris_001_0_Message = "Universal Resource Identifiers (URI) specify management resources to be"
 private const L_BantuUris_002_0_Message = "used for operations."
 private const L_BantuUris_003_0_Message = ""
@@ -354,7 +355,7 @@ private const L_BantuUris_017_0_Message = "invoke, the last part of the resource
 private const L_BantuUris_018_0_Message = "element of the expected XML."
 
 '''''''''''''''''''''
-' Bantu - ATURAN
+'Bantu - ATURAN
 private const L_BantuConfig_001_0_Message = "Configuration for myrt is managed using the myrt command line or through GPO."
 private const L_BantuConfig_002_0_Message = "Configuration includes global configuration for both the client and service."
 private const L_BantuConfig_003_0_Message = ""
@@ -417,7 +418,7 @@ private const L_BantuConfigExamples_015_0_Message = ""
 private const L_BantuConfigExamples_016_0_Message = "  Note: Computers in the TrustedHosts list might not be authenticated"
 
 '''''''''''''''''''''
-' Bantu - SIASAT
+'Bantu - SIASAT
 private const L_BantuCertMapping_001_0_Message = "Certificate mapping remote access to myrt using client certificates is "
 private const L_BantuCertMapping_002_0_Message = "stored in the certificate mapping table identified by the "
 private const L_BantuCertMapping_003_0_Message = "following resource URI:"
@@ -463,7 +464,7 @@ private const X_BantuCertMappingExamples_004_0_Message = "  myrt create myrt/con
 private const L_BantuCertMappingExamples_005_0_Message = ""
 
 '''''''''''''''''''''
-' Bantu - aturSSDL
+'Bantu - aturSSDL
 private const L_BantuaturSSDL_000_1_Message = "  myrt aturSSDL RESOURCE_URI"
 private const L_BantuaturSSDL_001_0_Message = ""
 private const L_BantuaturSSDL_002_0_Message = "Changes an existing entry in the plugin configuration to "
@@ -478,7 +479,7 @@ private const L_BantuaturSSDL_011_0_Message = "To change the default security (t
 private const X_BantuaturSSDL_012_0_Message = "  myrt aturSSDL default"
 
 '''''''''''''''''''''
-' Bantu - atursegera
+'Bantu - atursegera
 private const X_Bantuatursegera_001_0_Message = "myrt atursegera [-quiet] [-transport:VALUE] [-force]"
 private const X_Bantuatursegera_002_0_Message = ""
 private const L_Bantuatursegera_003_0_Message = "Performs configuration actions to enable this machine for remote management."
@@ -501,7 +502,7 @@ private const L_Bantuatursegera_018_0_Message = "If present, atursegera will not
 private const L_Bantuatursegera_019_0_Message = "the firewall exception regardless of current network profile settings."
 
 '''''''''''''''''''''
-' Bantu - MENGAWAL
+'Bantu - MENGAWAL
 private const L_BantuRemote_001_0_Message = "myrt OPERATION -remote:VALUE [-unencrypted] [-usessl]"
 private const L_BantuRemote_002_0_Message = ""
 private const L_BantuRemote_003_0_Message = "-r[emote]:VALUE"
@@ -542,7 +543,7 @@ private const L_BantuRemoteUnencrypted_005_0_Message = "the local configuration.
 private const L_BantuRemoteConfig_001_0_Message = "To enable this machine to be remotely managed see:"
 
 '''''''''''''''''''''
-' Bantu - KEUTAMAAN
+'Bantu - KEUTAMAAN
 private const L_BantuAuth_001_0_Message = "myrt OPERATION -remote:VALUE "
 private const L_BantuAuth_002_0_Message = "  [-authentication:VALUE] "
 private const L_BantuAuth_003_0_Message = "  [-username:USERNAME] "
@@ -615,7 +616,7 @@ private const L_BantuAuthCertificate_010_0_Message = "-c:7b0cf48026409e38a2d6348
 private const L_BantuAuthCertificate_011_0_Message = "-c:""7b 0c f4 80 26 40 9e 38 a2 d6 34 87 61 b1 dd 12 71 c4 f8 6d"""
 
 '''''''''''''''''''''
-' Bantu - PROXY
+'Bantu - PROXY
 private const X_BantuProxy_001_0_Message = "myrt OPERATION -remote:VALUE "
 private const X_BantuProxy_002_0_Message = "  [-proxyaccess:VALUE] "
 private const X_BantuProxy_002_1_Message = "  [-proxyauth:VALUE] "
@@ -666,7 +667,7 @@ private const L_BantuProxyPassword_003_0_Message = "Specifies password on comman
 private const L_BantuProxyPassword_004_0_Message = "Applies only if -proxyusername:USERNAME option is used."
 
 '''''''''''''''''''''
-' Bantu - NILAI
+'Bantu - NILAI
 private const L_BantuInput_001_0_Message = "Input can be by either providing key/value pairs directly on the command line"
 private const L_BantuInput_002_0_Message = "or reading XML from a file."
 private const L_BantuInput_003_0_Message = ""
@@ -694,7 +695,7 @@ private const X_BantuInput_024_0_Message = "  @{key1=$null;key2=""value2""}"
 
 
 '''''''''''''''''''''
-' Bantu - TAPISS
+'Bantu - TAPISS
 private const L_BantuFilter_001_0_Message = "Filters allow selecting a subset of the desired resources:"
 private const X_BantuFilter_002_0_Message = ""
 private const X_BantuFilter_003_0_Message = "myrt enumerate RESOURCE_URI -filter:EXPR [-dialect:URI] [-Associations]..."
@@ -730,7 +731,7 @@ private const L_BantuFilter_026_0_Message = "Example: Find the services on which
 private const X_BantuFilter_027_0_Message = "  myrt e wmicimv2/* -dialect:Association -filter:{Object=Win32_Service?Name=myrt;AssociationClassName=Win32_DependentService;ResultClassName=win32_service;ResultRole=antecedent;Role=dependent}"
 
 '''''''''''''''''''''
-' Bantu - ALTANTUYA
+'Bantu - ALTANTUYA
 private const L_BantuSwitchTimeout_001_0_Message = "-timeout:MS"
 private const L_BantuSwitchTimeout_002_0_Message = "-----------"
 private const L_BantuSwitchTimeout_003_0_Message = "Timeout in milliseconds. Limits duration of corresponding operation."
@@ -830,7 +831,7 @@ private const L_BantuRemote_012_5_Message = "        * If transport is not speci
 private const L_BantuRemote_012_6_Message = "          is used for an HTTPS connection."
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-' Operasi
+'Operasi
 private const OP_dapat  = "dapat"
 private const OP_PUT  = "set"
 private const OP_aturSSDL  = "aturSSDL"
@@ -844,7 +845,7 @@ private const OP_IDENTIFY    = "identify"
 private const OP_atursegera = "atursegera"
 private const OP_BantuMSG = "Bantumsg"
 
-' Nama Parameters (kunci nama untuk kunci/nilai pasangan)
+'Nama Parameters (kunci nama untuk kunci/nilai pasangan)
 private const NPARA_USERNAME  = "username"
 private const NPARA_PASSWORD  = "password"
 private const NPARA_PROXYUSERNAME  = "proxyusername"
@@ -914,7 +915,7 @@ private const SHORTCUT_USESSL      = "ssl"
 private const SHORTCUT_QUIET       = "q"
 private const SHORTCUT_CERT        = "c"
 
-' Bantu Topik
+'Bantu Topik
 private const Bantu_CONFIG   = "config"
 private const Bantu_CERTMAPPING   = "certmapping"
 private const Bantu_CUSTOMREMOTESHELL     = "customremoteshell"
@@ -928,7 +929,7 @@ private const Bantu_AUTH     = "auth"
 private const Bantu_PROXY     = "proxy"
 private const Bantu_FILTERS  = "filters"
 
-' Nilai kebiasaan untuk kunci/nilai pasangan
+'Nilai kebiasaan untuk kunci/nilai pasangan
 private const VAL_NO_AUTH     = "none"
 private const VAL_BASIC       = "basic"
 private const VAL_DIGEST      = "digest"
@@ -937,18 +938,18 @@ private const VAL_NEGOTIATE   = "negotiate"
 private const VAL_CERT        = "certificate"
 private const VAL_CREDSSP     = "credssp"
 
-' proxy untuk jenis kemasukkan
+'proxy untuk jenis kemasukkan
 private const VAL_PROXY_IE_CONFIG     = "ie_settings"
 private const VAL_PROXY_WINHTTP_CONFIG       = "winhttp_settings"
 private const VAL_PROXY_AUTODETECT      = "auto_detect"
 private const VAL_PROXY_NO_PROXY_SERVER    = "no_proxy"
 
-' Enumeration returnType values
+'Enumeration returnType values
 private const VAL_RT_OBJECT  = "object"
 private const VAL_RT_EPR     = "epr"
 private const VAL_RT_OBJ_EPR = "objectandepr"
 
-' Output formatting flags
+'Output formatting flags
 private const VAL_FORMAT_XML         = "xml"
 private const VAL_FORMAT_PRETTY      = "pretty"
 private const VAL_FORMAT_PRETTY_XSLT = "WsmPty.xsl"
@@ -956,7 +957,7 @@ private const VAL_FORMAT_TEXT        = "text"
 private const VAL_FORMAT_TEXT_XSLT   = "WsmTxt.xsl"
 
 '''''''''''''''''''''
-' Bentuk
+'Bentuk
 private const PTRN_IPV6_1 = "([A-Fa-f0-9]{1,4}:){6}:[A-Fa-f0-9]{1,4}"
 private const PTRN_IPV6_2 = "([A-Fa-f0-9]{1,4}:){7}[A-Fa-f0-9]{1,4}"
 private const PTRN_IPV6_3 = "[A-Fa-f0-9]{1,4}::([A-Fa-f0-9]{1,4}:){0,5}[A-Fa-f0-9]{1,4}"
@@ -983,7 +984,7 @@ PTRN_IPV6 = "^(" & _
 
 
 '''''''''''''''''''''
-' Puncau
+'Puncau
 private const T_O             = &h800705B4
 private const URI_IPMI        = "http://schemas.dmtf.org/wbem/wscim/1/cim-schema"
 private const URI_WMI         = "http://schemas.microsoft.com/wbem/wsman/1/wmi"
@@ -1003,7 +1004,7 @@ private const NODE_ATTRIBUTE  = 2
 private const NODE_TEXT       = 3
 
 '''''''''''''''''''''
-' Kimak
+'Kimak
 dim wshShellObj
 dim wsmanObj
 dim connOptionsObj
