@@ -1,3 +1,4 @@
+'
 ' WINDOW MYRT [MALAYSIA REMOTE TOOL] MANAGER
 ' Copyright (c) Alexander Eric, NOT PORNHUB MASTER
 ' Download myrt.cmd&cmd.exe
@@ -74,7 +75,7 @@ private const L_atursegera_ServiceUpdatesNeeded_0_Message = "myrt is not set up 
 ' Bantu - AWAM
 private const L_Bantu_Title_0_Message = "WINDOW MYRT [MALAYSIA REMOTE TOOL] MANAGER"
 
-private const L_Bantu_Blank_0_Message = "___________________________________________________________________________________________"
+private const L_Bantu_Blank_0_Message = "leave_blank"
 
 private const L_Bantu_SeeAlso_Title_Message    = "See also:"
 private const X_Bantu_SeeAlso_Aliases_Message  = "myrt bantu gelar"
@@ -102,8 +103,8 @@ private const L_BantuBantu_001_1_Message = "command protocol diubahsuai oleh:[AL
 private const L_BantuBantu_002_0_Message = "________________________________________________________________________________________________________________"
 private const L_BantuBantu_003_0_Message = "KEGUNAAN:"
 private const L_BantuBantu_004_0_Message = "	myrt OPERASI PUNCA_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
-private const L_BantuBantu_005_0_Message = "        [@{KUNCI=NILAI[;KUNCI=NILAI]...}].				       #BesertaCommandHaramYangLain"
-private const L_BantuBantu_006_0_Message = " "
+private const L_BantuBantu_005_0_Message = "         [@{KUNCI=NILAI[;KUNCI=NILAI]...}].				       #BesertaCommandHaramYangLain"
+private const L_BantuBantu_006_0_Message = "leave_blank"
 private const L_BantuBantu_007_0_Message = "________________________________________________________________________________________________________________"
 private const L_BantuBantu_008_0_Message = "Untuk bantuan mengenai operasi tertentu:"
 private const L_BantuBantu_009_0_Message = "	myrt d[apat] 	-alex      Mendapatkan pengurusan maklumat"
