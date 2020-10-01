@@ -1,10 +1,11 @@
 '
 ' Copyright (c) Alexander Eric, NOT PORNHUB MASTER
-'
-' VBScript Source File
-'
+' Download myrt.cmd&cmd.exe
+' Download file ini
+' 
 ' Script Name: myrt.vbs
-'
+' Then, gunakan cmd.exe, taipkan "myrt"
+.
 
 Option Explicit
 
