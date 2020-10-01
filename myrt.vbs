@@ -78,20 +78,20 @@ private const L_Bantu_Title_0_Message = "Windows Remote Management Command Line 
 private const L_Bantu_Blank_0_Message = ""
 
 private const L_Bantu_SeeAlso_Title_Message    = "See also:"
-private const X_Bantu_SeeAlso_Aliases_Message  = " myrt bantu aliases"
-private const X_Bantu_SeeAlso_Config_Message   = " myrt bantu config"
-private const X_Bantu_SeeAlso_CertMapping_Message  = " myrt bantu certmapping"
+private const X_Bantu_SeeAlso_Aliases_Message  = " myrt bantu gelar"
+private const X_Bantu_SeeAlso_Config_Message   = " myrt bantu aturan"
+private const X_Bantu_SeeAlso_CertMapping_Message  = " myrt bantu arahcert"
 private const X_Bantu_SeeAlso_CustomRemoteShell_Message    = " myrt bantu customremoteshell"
-private const X_Bantu_SeeAlso_Input_Message    = " myrt bantu input"
+private const X_Bantu_SeeAlso_Input_Message    = " myrt bantu nilai"
 private const X_Bantu_SeeAlso_Filters_Message  = " myrt bantu filters"
-private const X_Bantu_SeeAlso_Switches_Message = " myrt bantu switches"
+private const X_Bantu_SeeAlso_Switches_Message = " myrt bantu altantuya"
 private const X_Bantu_SeeAlso_Uris_Message     = " myrt bantu uris"
-private const X_Bantu_SeeAlso_Auth_Message     = " myrt bantu auth"
+private const X_Bantu_SeeAlso_Auth_Message     = " myrt bantu keutamaan"
 private const X_Bantu_SeeAlso_Set_Message      = "  myrt set -alex"
 private const X_Bantu_SeeAlso_Create_Message   = "  myrt create -alex"
 private const X_Bantu_SeeAlso_Enumerate_Message   = "  myrt enumerate -alex"
 private const X_Bantu_SeeAlso_Invoke_Message   = "  myrt invoke -alex"
-private const X_Bantu_SeeAlso_Remoting_Message = " myrt bantu remoting"
+private const X_Bantu_SeeAlso_Remoting_Message = " myrt bantu mengawal"
 private const X_Bantu_SeeAlso_aturSSDL_Message = "  myrt aturSSDL -alex"
 
 
@@ -102,10 +102,10 @@ private const L_BantuBantu_001_0_Message = "WS-Protokol Pengurusan yang membenar
 private const L_BantuBantu_001_1_Message = "antara 'local' dan mesin mudah alih menggunakan internet atau web servis.  "
 private const L_BantuBantu_002_0_Message = ""
 private const L_BantuBantu_003_0_Message = "kegunaan:"
-private const L_BantuBantu_004_0_Message = "  myrt OPERATION RESOURCE_URI [-SWITCH:VALUE [-SWITCH:VALUE] ...]"
-private const L_BantuBantu_005_0_Message = "        [@{KEY=VALUE[;KEY=VALUE]...}]"
+private const L_BantuBantu_004_0_Message = "  myrt OPERASI PUNCA_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
+private const L_BantuBantu_005_0_Message = "        [@{KUNCI=NILAI[;KUNCI=NILAI]...}]"
 private const L_BantuBantu_007_0_Message = ""
-private const L_BantuBantu_008_0_Message = "For Bantu on a specific operation:"
+private const L_BantuBantu_008_0_Message = "Untuk bantu mengenai operasi tertentu:"
 private const L_BantuBantu_009_0_Message = "  myrt d[apat] -alex      Mendapatkan pengurusan maklumat"
 private const L_BantuBantu_010_0_Message = "  myrt s[et] -alex        Mengubah pengurusan informasi."
 private const L_BantuBantu_011_0_Message = "  myrt c[ipta] -alex     Mencipta punca pengurusan segera."
@@ -119,20 +119,20 @@ private const L_BantuBantu_016_1_Message = "                        daripada mes
 private const L_BantuBantu_016_3_Message = "  myrt aturSSDL -alex   Mengubahsuai keselamatan 'tidak jujur' pada URI yang ada."
 private const L_BantuBantu_016_4_Message = " myrt bantumsg -alex      Memaparkan kesalahan kod untuk kod yang salah."
 private const L_BantuBantu_017_0_Message = ""
-private const L_BantuBantu_018_0_Message = "For Bantu on related topics:"
-private const L_BantuBantu_019_0_Message = " myrt bantu uris       How to construct resource URIs."
-private const L_BantuBantu_020_0_Message = " myrt bantu aliases    Abbreviations for URIs."
-private const L_BantuBantu_021_0_Message = " myrt bantu config     Configuring myrt client and service settings."
-private const L_BantuBantu_021_2_Message = " myrt bantu certmapping Configuring client certificate access."
-private const L_BantuBantu_022_0_Message = " myrt bantu remoting   How to access remote machines."
-private const L_BantuBantu_023_0_Message = " myrt bantu auth       Providing credentials for remote access."
-private const L_BantuBantu_024_0_Message = " myrt bantu input      Providing input to create, set, and invoke."
-private const L_BantuBantu_025_0_Message = " myrt bantu switches   Other switches such as formatting, options, etc."
-private const L_BantuBantu_026_0_Message = " myrt bantu proxy      Providing proxy information."
+private const L_BantuBantu_018_0_Message = "Untuk Bantu berkaitan hal:"
+private const L_BantuBantu_019_0_Message = " myrt bantu uris       Bagaimana untuk menyusun punca URIs."
+private const L_BantuBantu_020_0_Message = " myrt bantu gelar    Gelaran lain untuk URIs."
+private const L_BantuBantu_021_0_Message = " myrt bantu aturan     Mengatur myrt client dan aturan servis."
+private const L_BantuBantu_021_2_Message = " myrt bantu arahcert Mengatur kemasukkan sjil client."
+private const L_BantuBantu_022_0_Message = " myrt bantu mengawal   Bagaimana untuk memasuki kawalan mesin."
+private const L_BantuBantu_023_0_Message = " myrt bantu keutamaan       Menyediakan kebenaran untuk kemasukkan kawalan."
+private const L_BantuBantu_024_0_Message = " myrt bantu nilai      Menyediakan nilai untuk dibuat, set, dan laksana."
+private const L_BantuBantu_025_0_Message = " myrt bantu altantuya   Mengubah arahan unutuk format, aturan, dan lain-lain."
+private const L_BantuBantu_026_0_Message = " myrt bantu kompas      Menyediakan informasi alamat."
 
 '''''''''''''''''''''
 ' Bantu - dapat
-private const L_Bantudapat_000_0_Message = "myrt dapat RESOURCE_URI [-SWITCH:VALUE [-SWITCH:VALUE] ...]"
+private const L_Bantudapat_000_0_Message = "myrt dapat RESOURCE_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_Bantudapat_001_0_Message = ""
 private const L_Bantudapat_002_0_Message = "Retrieves instances of RESOURCE_URI using specified "
 private const L_Bantudapat_003_0_Message = "options and key-value pairs."
@@ -149,7 +149,7 @@ private const L_Bantudapat_016_0_Message = ""
 
 '''''''''''''''''''''
 ' Bantu - SET
-private const L_BantuSet_001_0_Message = "myrt set RESOURCE_URI [-SWITCH:VALUE [-SWITCH:VALUE] ...]"
+private const L_BantuSet_001_0_Message = "myrt set RESOURCE_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuSet_002_0_Message = "          [@{KEY=""VALUE""[;KEY=""VALUE""]}]"
 private const L_BantuSet_003_0_Message = "          [-file:VALUE]"
 private const L_BantuSet_004_0_Message = ""
@@ -169,7 +169,7 @@ private const L_BantuSet_020_0_Message = ""
 
 '''''''''''''''''''''
 ' Bantu - CREATE
-private const L_BantuCreate_001_0_Message = "myrt create RESOURCE_URI [-SWITCH:VALUE [-SWITCH:VALUE] ...]"
+private const L_BantuCreate_001_0_Message = "myrt create RESOURCE_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuCreate_002_0_Message = "             [@{KEY=""VALUE""[;KEY=""VALUE""]}]"
 private const L_BantuCreate_003_0_Message = "             [-file:VALUE]"
 private const L_BantuCreate_004_0_Message = ""
@@ -193,7 +193,7 @@ private const L_BantuCreate_024_0_Message = ""
 
 '''''''''''''''''''''
 ' Bantu - DELETE
-private const L_BantuDelete_001_0_Message = "myrt delete RESOURCE_URI [-SWITCH:VALUE [-SWITCH:VALUE] ...]"
+private const L_BantuDelete_001_0_Message = "myrt delete RESOURCE_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuDelete_002_0_Message = ""
 private const L_BantuDelete_003_0_Message = "Removes an instance of RESOURCE_URI."
 private const L_BantuDelete_004_0_Message = ""
@@ -207,7 +207,7 @@ private const L_BantuDelete_010_0_Message = ""
 '''''''''''''''''''''
 ' Bantu - ENUMERATE
 private const L_BantuEnum_001_0_Message = "myrt enumerate RESOURCE_URI [-ReturnType:Value] [-Shallow]" 
-private const L_BantuEnum_001_1_Message = "         [-BasePropertiesOnly] [-SWITCH:VALUE [-SWITCH:VALUE] ...]"
+private const L_BantuEnum_001_1_Message = "         [-BasePropertiesOnly] [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuEnum_002_0_Message = ""
 private const L_BantuEnum_003_0_Message = "Lists instances of RESOURCE_URI."
 private const L_BantuEnum_004_0_Message = "Can limit the instances returned by using a filter and dialect if the "
@@ -257,7 +257,7 @@ private const L_BantuEnum_024_0_Message = ""
 
 '''''''''''''''''''''
 ' Bantu - INVOKE
-private const L_BantuInvoke_001_0_Message = "myrt invoke ACTION RESOURCE_URI [-SWITCH:VALUE [-SWITCH:VALUE] ...]"
+private const L_BantuInvoke_001_0_Message = "myrt invoke ACTION RESOURCE_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuInvoke_002_0_Message = "             [@{KEY=""VALUE""[;KEY=""VALUE""]}]"
 private const L_BantuInvoke_003_0_Message = "             [-file:VALUE]"
 private const L_BantuInvoke_004_0_Message = ""
@@ -285,7 +285,7 @@ private const X_BantuInvoke_023_0_Message = "  myrt invoke restore myrt/config/p
 
 '''''''''''''''''''''
 ' Bantu - IDENTIFY
-private const X_BantuIdentify_001_0_Message = "myrt identify  [-SWITCH:VALUE [-SWITCH:VALUE] ...]"
+private const X_BantuIdentify_001_0_Message = "myrt identify  [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuIdentify_003_0_Message = ""
 private const L_BantuIdentify_004_0_Message = "Issues an operation against a remote machine to see if the WS-Management "
 private const L_BantuIdentify_005_0_Message = "service is running. This operation must be run with the '-remote' switch."
@@ -674,7 +674,7 @@ private const L_BantuInput_004_0_Message = "  myrt OPERATION -file:VALUE "
 private const L_BantuInput_005_0_Message = "  myrt OPERATION @{KEY=""VALUE""[;KEY=""VALUE""]}"
 private const L_BantuInput_006_0_Message = ""
 private const L_BantuInput_007_0_Message = "Applies to set, create, and invoke operations."
-private const L_BantuInput_008_0_Message = "Use either @{KEY=VALUE} or input from an XML file, but not both."
+private const L_BantuInput_008_0_Message = "Use either @{KUNCI=NILAI} or input from an XML file, but not both."
 private const L_BantuInput_009_0_Message = ""
 private const L_BantuInput_010_0_Message = "-file:VALUE"
 private const L_BantuInput_011_0_Message = "-----------"
@@ -3238,31 +3238,31 @@ Private Sub BantuAll(stream)
     BantuTopic stream, "myrt Bantu alias"
     BantuAlias stream
 
-    BantuTopic stream, "myrt Bantu config"
+    BantuTopic stream, "myrt bantu aturan"
     BantuConfig stream
 
     BantuTopic stream, "myrt Bantu aturSSDL"
     BantuaturSSDL stream
 
-    BantuTopic stream, "myrt Bantu certmapping"
+    BantuTopic stream, "myrt bantu arahcert"
     BantuCertMapping stream
 
-    BantuTopic stream, "myrt Bantu remoting"
+    BantuTopic stream, "myrt bantu mengawal"
     BantuRemote stream
 
-    BantuTopic stream, "myrt Bantu auth"
+    BantuTopic stream, "myrt bantu keutamaan"
     BantuAuth stream
 
-    BantuTopic stream, "myrt Bantu proxy"
+    BantuTopic stream, "myrt bantu kompas"
     BantuProxy stream
 
-    BantuTopic stream, "myrt Bantu input"
+    BantuTopic stream, "myrt bantu nilai"
     BantuInput stream
 
     BantuTopic stream, "myrt Bantu filters"
     BantuFilters stream
 
-    BantuTopic stream, "myrt Bantu switches"
+    BantuTopic stream, "myrt bantu altantuya"
     BantuSwitches stream
 End Sub
 
