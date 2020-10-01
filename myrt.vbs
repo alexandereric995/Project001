@@ -25,8 +25,8 @@ private const L_PARZERO_Message         = "Parameter is zero length #"
 private const L_INVOPT_ErrorMessage     = "Switch not allowed with the given operation: "
 private const L_UNKOPT_ErrorMessage     = "Unknown switch: "
 private const L_BLANKOPT_ErrorMessage   = "Missing switch name"
-private const L_UNKOPT_GenMessage       = "Invalid use of command line. Type ""myrt -?"" for Bantu."
-private const L_Bantu_GenMessage         = "Type ""myrt -?"" for Bantu."
+private const L_UNKOPT_GenMessage       = "Invalid use of command line. Type ""myrt -alex"" for Bantu."
+private const L_Bantu_GenMessage         = "Type ""myrt -alex"" for Bantu."
 private const L_ScriptNameNotFound_ErrorMessage = "Invalid usage of command line; myrt.vbs not found in command string."
 private const L_ImproperUseOfQuotes_ErrorMessage = "A quoted parameter value must begin and end with quotes: "
 private const L_BADMATCNT1_Message      = "Unexpected match count - one match is expected: "
@@ -56,19 +56,19 @@ private const L_PUT_PARAM_NOINPUT_Message = "No input provided through ""@{...}"
 private const L_ERR_Message = "Error: "
 private const L_ERRNO_Message = "Error number: "
 private const L_OpDoesntAcceptInput_ErrorMessage = "Input was supplied to an operation that does not accept input."
-private const L_QuickConfigNoChangesNeeded_Message = "myrt is already set up for remote management on this computer."
-private const L_QuickConfig_MissingUpdateXml_0_ErrorMessage = "Could not find update instructions in analysis result."
-private const L_QuickConfigUpdated_Message = "myrt has been updated for remote management."
-private const L_QuickConfigUpdateFailed_ErrorMessage = "One or more update steps could not be completed."
-private const L_QuickConfig_InvalidBool_0_ErrorMessage = "Could not determine if remoting is enabled."
-private const L_QuickConfig_RemotingDisabledbyGP_00_ErrorMessage = "Cannot complete the request due to a conflicting Group Policy setting."
-private const L_QuickConfig_UpdatesNeeded_0_Message = "myrt is not set up to allow remote access to this machine for management."
-private const L_QuickConfig_UpdatesNeeded_1_Message = "The following changes must be made:"
-private const L_QuickConfig_Prompt_0_Message = "Make these changes [y/n]? "
-private const L_QuickConfigNoServiceChangesNeeded_Message = "myrt is already set up to receive requests on this computer."
-private const L_QuickConfigNoServiceChangesNeeded_Message2 = "myrt service is already running on this machine."
-private const L_QuickConfigUpdatedService_Message = "myrt has been updated to receive requests."
-private const L_QuickConfig_ServiceUpdatesNeeded_0_Message = "myrt is not set up to receive requests on this machine."
+private const L_atursegeraNoChangesNeeded_Message = "myrt is already set up for remote management on this computer."
+private const L_atursegera_MissingUpdateXml_0_ErrorMessage = "Could not find update instructions in analysis result."
+private const L_atursegeraUpdated_Message = "myrt has been updated for remote management."
+private const L_atursegeraUpdateFailed_ErrorMessage = "One or more update steps could not be completed."
+private const L_atursegera_InvalidBool_0_ErrorMessage = "Could not determine if remoting is enabled."
+private const L_atursegera_RemotingDisabledbyGP_00_ErrorMessage = "Cannot complete the request due to a conflicting Group Policy setting."
+private const L_atursegera_UpdatesNeeded_0_Message = "myrt is not set up to allow remote access to this machine for management."
+private const L_atursegera_UpdatesNeeded_1_Message = "The following changes must be made:"
+private const L_atursegera_Prompt_0_Message = "Make these changes [y/n]? "
+private const L_atursegeraNoServiceChangesNeeded_Message = "myrt is already set up to receive requests on this computer."
+private const L_atursegeraNoServiceChangesNeeded_Message2 = "myrt service is already running on this machine."
+private const L_atursegeraUpdatedService_Message = "myrt has been updated to receive requests."
+private const L_atursegera_ServiceUpdatesNeeded_0_Message = "myrt is not set up to receive requests on this machine."
 
 
 '''''''''''''''''''''
@@ -87,12 +87,12 @@ private const X_Bantu_SeeAlso_Filters_Message  = " myrt bantu filters"
 private const X_Bantu_SeeAlso_Switches_Message = " myrt bantu switches"
 private const X_Bantu_SeeAlso_Uris_Message     = " myrt bantu uris"
 private const X_Bantu_SeeAlso_Auth_Message     = " myrt bantu auth"
-private const X_Bantu_SeeAlso_Set_Message      = "  myrt set -?"
-private const X_Bantu_SeeAlso_Create_Message   = "  myrt create -?"
-private const X_Bantu_SeeAlso_Enumerate_Message   = "  myrt enumerate -?"
-private const X_Bantu_SeeAlso_Invoke_Message   = "  myrt invoke -?"
+private const X_Bantu_SeeAlso_Set_Message      = "  myrt set -alex"
+private const X_Bantu_SeeAlso_Create_Message   = "  myrt create -alex"
+private const X_Bantu_SeeAlso_Enumerate_Message   = "  myrt enumerate -alex"
+private const X_Bantu_SeeAlso_Invoke_Message   = "  myrt invoke -alex"
 private const X_Bantu_SeeAlso_Remoting_Message = " myrt bantu remoting"
-private const X_Bantu_SeeAlso_configSDDL_Message = "  myrt configsddl -?"
+private const X_Bantu_SeeAlso_aturSSDL_Message = "  myrt aturSSDL -alex"
 
 
 '''''''''''''''''''''
@@ -106,18 +106,18 @@ private const L_BantuBantu_004_0_Message = "  myrt OPERATION RESOURCE_URI [-SWIT
 private const L_BantuBantu_005_0_Message = "        [@{KEY=VALUE[;KEY=VALUE]...}]"
 private const L_BantuBantu_007_0_Message = ""
 private const L_BantuBantu_008_0_Message = "For Bantu on a specific operation:"
-private const L_BantuBantu_009_0_Message = "  myrt d[apat] -?      Mendapatkan pengurusan maklumat"
-private const L_BantuBantu_010_0_Message = "  myrt s[et] -?        Mengubah pengurusan informasi."
-private const L_BantuBantu_011_0_Message = "  myrt c[reate] -?     Mencipta punca pengurusan segera."
-private const L_BantuBantu_012_0_Message = "  myrt d[elete] -?     Membuang punca pengurusan segera."
-private const L_BantuBantu_013_0_Message = "  myrt e[numerate] -?  Senarai semua punca pengurusan segera."
-private const L_BantuBantu_014_0_Message = "  myrt i[nvoke] -?     Menlaksanakan langkah untuk punca pengurusan."
-private const L_BantuBantu_015_0_Message = "  myrt id[entify] -?   Memastikan jika kawalan pengurusan diadakan"
+private const L_BantuBantu_009_0_Message = "  myrt d[apat] -alex      Mendapatkan pengurusan maklumat"
+private const L_BantuBantu_010_0_Message = "  myrt s[et] -alex        Mengubah pengurusan informasi."
+private const L_BantuBantu_011_0_Message = "  myrt c[ipta] -alex     Mencipta punca pengurusan segera."
+private const L_BantuBantu_012_0_Message = "  myrt b[uang] -alex     Membuang punca pengurusan segera."
+private const L_BantuBantu_013_0_Message = "  myrt s[enarai] -alex  Senarai semua punca pengurusan segera."
+private const L_BantuBantu_014_0_Message = "  myrt l[aksana] -alex     Menlaksanakan langkah untuk punca pengurusan."
+private const L_BantuBantu_015_0_Message = "  myrt id[entiti] -alex   Memastikan jika kawalan pengurusan diadakan"
 private const L_BantuBantu_015_1_Message = "                        pada mesin kawalan anda."
-private const L_BantuBantu_016_0_Message = "  myrt quickconfig -?  Mengatur mesin untuk menerima system kawalan "
+private const L_BantuBantu_016_0_Message = "  myrt atursegera -alex  Mengatur mesin untuk menerima system kawalan "
 private const L_BantuBantu_016_1_Message = "                        daripada mesin kawalan yang lain."
-private const L_BantuBantu_016_3_Message = "  myrt configSDDL -?   Mengubahsuai keselamatan 'tidak jujur' pada URI yang ada."
-private const L_BantuBantu_016_4_Message = " myrt bantumsg -?      Memaparkan kesalahan kod untuk kod yang salah."
+private const L_BantuBantu_016_3_Message = "  myrt aturSSDL -alex   Mengubahsuai keselamatan 'tidak jujur' pada URI yang ada."
+private const L_BantuBantu_016_4_Message = " myrt bantumsg -alex      Memaparkan kesalahan kod untuk kod yang salah."
 private const L_BantuBantu_017_0_Message = ""
 private const L_BantuBantu_018_0_Message = "For Bantu on related topics:"
 private const L_BantuBantu_019_0_Message = " myrt bantu uris       How to construct resource URIs."
@@ -463,42 +463,42 @@ private const X_BantuCertMappingExamples_004_0_Message = "  myrt create myrt/con
 private const L_BantuCertMappingExamples_005_0_Message = ""
 
 '''''''''''''''''''''
-' Bantu - CONFIGSDDL
-private const L_BantuConfigsddl_000_1_Message = "  myrt configsddl RESOURCE_URI"
-private const L_BantuConfigsddl_001_0_Message = ""
-private const L_BantuConfigsddl_002_0_Message = "Changes an existing entry in the plugin configuration to "
-private const L_BantuConfigsddl_002_1_Message = "control remote access to myrt resources."
-private const L_BantuConfigsddl_003_0_Message = "This command will fail if the plugin does not exist."
-private const L_BantuConfigsddl_004_0_Message = ""
-private const L_BantuConfigsddl_005_0_Message = "This command will launch a GUI to edit the security settings."
-private const L_BantuConfigsddl_005_1_Message = ""
-private const L_BantuConfigsddl_006_0_Message = "RESOURCE_URI is always treated as a prefix."
-private const L_BantuConfigsddl_010_0_Message = ""
-private const L_BantuConfigsddl_011_0_Message = "To change the default security (the RootSDDL setting) use:"
-private const X_BantuConfigsddl_012_0_Message = "  myrt configsddl default"
+' Bantu - aturSSDL
+private const L_BantuaturSSDL_000_1_Message = "  myrt aturSSDL RESOURCE_URI"
+private const L_BantuaturSSDL_001_0_Message = ""
+private const L_BantuaturSSDL_002_0_Message = "Changes an existing entry in the plugin configuration to "
+private const L_BantuaturSSDL_002_1_Message = "control remote access to myrt resources."
+private const L_BantuaturSSDL_003_0_Message = "This command will fail if the plugin does not exist."
+private const L_BantuaturSSDL_004_0_Message = ""
+private const L_BantuaturSSDL_005_0_Message = "This command will launch a GUI to edit the security settings."
+private const L_BantuaturSSDL_005_1_Message = ""
+private const L_BantuaturSSDL_006_0_Message = "RESOURCE_URI is always treated as a prefix."
+private const L_BantuaturSSDL_010_0_Message = ""
+private const L_BantuaturSSDL_011_0_Message = "To change the default security (the RootSDDL setting) use:"
+private const X_BantuaturSSDL_012_0_Message = "  myrt aturSSDL default"
 
 '''''''''''''''''''''
-' Bantu - QUICKCONFIG
-private const X_BantuQuickConfig_001_0_Message = "myrt quickconfig [-quiet] [-transport:VALUE] [-force]"
-private const X_BantuQuickConfig_002_0_Message = ""
-private const L_BantuQuickConfig_003_0_Message = "Performs configuration actions to enable this machine for remote management."
-private const L_BantuQuickConfig_004_0_Message = "Includes:"
-private const L_BantuQuickConfig_005_0_Message = "  1. Start the myrt service"
-private const L_BantuQuickConfig_006_0_Message = "  2. Set the myrt service type to auto start"
-private const L_BantuQuickConfig_007_0_Message = "  3. Create a listener to accept request on any IP address"
-private const L_BantuQuickConfig_008_0_Message = "  4. Enable firewall exception for WS-Management traffic (for http only)"
-private const X_BantuQuickConfig_009_0_Message = ""
-private const X_BantuQuickConfig_010_0_Message = "-q[uiet]"
-private const X_BantuQuickConfig_010_1_Message = "--------"
-private const L_BantuQuickConfig_011_0_Message = "If present, quickconfig will not prompt for confirmation."
-private const X_BantuQuickConfig_012_0_Message = "-transport:VALUE"
-private const X_BantuQuickConfig_013_0_Message = "----------------"
-private const L_BantuQuickConfig_014_0_Message = "Perform quickconfig for specific transport."
-private const L_BantuQuickConfig_015_0_Message = "Possible options are http and https.  Defaults to http."
-private const X_BantuQuickConfig_016_0_Message = "-force"
-private const X_BantuQuickConfig_017_0_Message = "--------"
-private const L_BantuQuickConfig_018_0_Message = "If present, quickconfig will not prompt for confirmation, and will enable "
-private const L_BantuQuickConfig_019_0_Message = "the firewall exception regardless of current network profile settings."
+' Bantu - atursegera
+private const X_Bantuatursegera_001_0_Message = "myrt atursegera [-quiet] [-transport:VALUE] [-force]"
+private const X_Bantuatursegera_002_0_Message = ""
+private const L_Bantuatursegera_003_0_Message = "Performs configuration actions to enable this machine for remote management."
+private const L_Bantuatursegera_004_0_Message = "Includes:"
+private const L_Bantuatursegera_005_0_Message = "  1. Start the myrt service"
+private const L_Bantuatursegera_006_0_Message = "  2. Set the myrt service type to auto start"
+private const L_Bantuatursegera_007_0_Message = "  3. Create a listener to accept request on any IP address"
+private const L_Bantuatursegera_008_0_Message = "  4. Enable firewall exception for WS-Management traffic (for http only)"
+private const X_Bantuatursegera_009_0_Message = ""
+private const X_Bantuatursegera_010_0_Message = "-q[uiet]"
+private const X_Bantuatursegera_010_1_Message = "--------"
+private const L_Bantuatursegera_011_0_Message = "If present, atursegera will not prompt for confirmation."
+private const X_Bantuatursegera_012_0_Message = "-transport:VALUE"
+private const X_Bantuatursegera_013_0_Message = "----------------"
+private const L_Bantuatursegera_014_0_Message = "Perform atursegera for specific transport."
+private const L_Bantuatursegera_015_0_Message = "Possible options are http and https.  Defaults to http."
+private const X_Bantuatursegera_016_0_Message = "-force"
+private const X_Bantuatursegera_017_0_Message = "--------"
+private const L_Bantuatursegera_018_0_Message = "If present, atursegera will not prompt for confirmation, and will enable "
+private const L_Bantuatursegera_019_0_Message = "the firewall exception regardless of current network profile settings."
 
 '''''''''''''''''''''
 ' Bantu - REMOTE
@@ -577,7 +577,7 @@ private const L_BantuAuthAuth_016_0_Message = "      or group policy."
 private const L_BantuAuthAuth_017_0_Message = "Note: Most operations will require an authentication mode other than None."
 private const L_BantuAuthAuth_018_0_Message = "Note: Certificate authentication can be used only with the HTTPS transport."
 private const L_BantuAuthAuth_019_0_Message = "      To configure an HTTPS listener for the myrt service run the command:"
-private const L_BantuAuthAuth_020_0_Message = "      ""myrt quickconfig -transport:HTTPS"""
+private const L_BantuAuthAuth_020_0_Message = "      ""myrt atursegera -transport:HTTPS"""
 
 private const L_BantuAuthUsername_001_0_Message = "-u[sername]:USERNAME"
 private const L_BantuAuthUsername_002_0_Message = "--------------------"
@@ -833,7 +833,7 @@ private const L_BantuRemote_012_6_Message = "          is used for an HTTPS conn
 ' Operations
 private const OP_dapat  = "dapat"
 private const OP_PUT  = "set"
-private const OP_CONFIGSDDL  = "configsddl"
+private const OP_aturSSDL  = "aturSSDL"
 private const OP_CREATESDDL  = "createsddl"
 private const OP_CRE  = "create"
 private const OP_DEL  = "delete"
@@ -841,7 +841,7 @@ private const OP_ENU  = "enumerate"
 private const OP_INV  = "invoke"
 private const OP_Bantu = "Bantu"
 private const OP_IDENTIFY    = "identify"
-private const OP_QUICKCONFIG = "quickconfig"
+private const OP_atursegera = "atursegera"
 private const OP_BantuMSG = "Bantumsg"
 
 ' Named parameters (key names of key/value pairs)
@@ -893,7 +893,7 @@ private const SHORTCUT_IDENTIFY    = "id"
 private const SHORTCUT_PUT         = "s"
 private const SHORTCUT_PUT2        = "put"
 private const SHORTCUT_PUT3        = "p"
-private const SHORTCUT_QUICKCONFIG = "qc"
+private const SHORTCUT_atursegera = "qc"
 private const SHORTCUT_BantuMSG    = "Bantumsg"
 
 private const SHORTCUT_AUTH        = "a"
@@ -1157,7 +1157,7 @@ if operation = OP_INV then
     actionUriStr = wsmanCmdLineObj.Argument(NPARA_PSEUDO_ACTION)
 End If
 
-If (operation <> OP_IDENTIFY and operation <> OP_QUICKCONFIG) Then
+If (operation <> OP_IDENTIFY and operation <> OP_atursegera) Then
     resourceUriStr = wsmanCmdLineObj.Argument(NPARA_PSEUDO_RESOURCE)
     'Determine the name to use for the root node in the message
     rootNdNameStr = dapatRootNodeName(operation, resourceUriStr, actionUriStr)
@@ -1196,8 +1196,8 @@ select case operation
         responseStr = sessionObj.dapat(resourceLocatorObj)
     case OP_PUT
        responseStr = sessionObj.Put(resourceLocatorObj, inputStr)
-    case OP_CONFIGSDDL
-       responseStr = wsmanInternalObj.ConfigSDDL(sessionObj,resourceLocatorObj)    
+    case OP_aturSSDL
+       responseStr = wsmanInternalObj.aturSSDL(sessionObj,resourceLocatorObj)    
     case OP_CRE
         responseStr = sessionObj.Create(resourceLocatorObj, inputStr)
     case OP_INV
@@ -1206,8 +1206,8 @@ select case operation
          Enumerate wsmanObj, sessionObj, wsmanCmdLineObj, resourceLocatorObj, formatOption
     case OP_IDENTIFY
         responseStr = sessionObj.Identify
-    case OP_QUICKCONFIG
-         QuickConfig sessionObj, wsmanCmdLineObj
+    case OP_atursegera
+         atursegera sessionObj, wsmanCmdLineObj
     case else 
         ASSERTBOOL False, dapatResource("L_UNKOPNM_Message") & "'" & operation & "'"
 end select
@@ -1217,7 +1217,7 @@ if Err.Number <> 0 then
     ASSERTERR sessionObj, formatOption
     on error goto 0
 else
-    if operation <> OP_ENU and operation <> OP_DEL and operation <> OP_QUICKCONFIG then
+    if operation <> OP_ENU and operation <> OP_DEL and operation <> OP_atursegera then
         If Reformat(responseStr,formattedStr,formatOption) Then
             WScript.echo formattedStr
         Else
@@ -1395,7 +1395,7 @@ Class CommandLineParser
         m_operationShortcuts.Add SHORTCUT_PUT,  OP_PUT
         m_operationShortcuts.Add SHORTCUT_PUT2, OP_PUT
         m_operationShortcuts.Add SHORTCUT_PUT3, OP_PUT
-        m_operationShortcuts.Add SHORTCUT_QUICKCONFIG, OP_QUICKCONFIG
+        m_operationShortcuts.Add SHORTCUT_atursegera, OP_atursegera
         m_operationShortcuts.Add SHORTCUT_BantuMSG, OP_BantuMSG
         
         Set m_parameterShortcuts = CreateObject("Scripting.Dictionary")
@@ -1660,20 +1660,20 @@ Class WSManCommandLineParser
     Private Sub LoadOperations
         m_allowedOperations.Add OP_dapat, 1
         m_allowedOperations.Add OP_PUT, 1  
-        m_allowedOperations.Add OP_CONFIGSDDL, 1
+        m_allowedOperations.Add OP_aturSSDL, 1
         m_allowedOperations.Add OP_CRE, 1
         m_allowedOperations.Add OP_DEL, 1
         m_allowedOperations.Add OP_ENU, 1
         m_allowedOperations.Add OP_INV, 2
         m_allowedOperations.Add OP_IDENTIFY, 0
-        m_allowedOperations.Add OP_QUICKCONFIG, 0
+        m_allowedOperations.Add OP_atursegera, 0
         m_allowedOperations.Add OP_BantuMSG, 1
     End Sub
 
     Private Sub LoadAllowedParameters(op)
         m_allowedParameterNames.Add NPARA_Bantu,true
 
-        If (op = OP_QUICKCONFIG) Then
+        If (op = OP_atursegera) Then
             m_allowedParameterNames.Add NPARA_QUIET,true
             m_allowedParameterNames.Add NPARA_TRANSPORT,true
             m_allowedParameterNames.Add NPARA_FORCE,true
@@ -2088,16 +2088,16 @@ private function dapatSuffix(resUri)
 end function
 
 '''''''''''''''''''''    
-' QuickConfig Bantuer
-Private Function QuickConfig(session, cmdlineOptions)
-    QuickConfigRemoting session, cmdlineOptions, true
+' atursegera Bantuer
+Private Function atursegera(session, cmdlineOptions)
+    atursegeraRemoting session, cmdlineOptions, true
     If Err.Number <> 0 Then
         Exit Function
     End If
-    QuickConfigRemoting session, cmdlineOptions, false
+    atursegeraRemoting session, cmdlineOptions, false
 End function
 
-Private Function QuickConfigRemoting(session, cmdlineOptions, serviceOnly)
+Private Function atursegeraRemoting(session, cmdlineOptions, serviceOnly)
     Dim analysisInputXml
     Dim analysisOutputXml
     Dim analysisOutput
@@ -2166,14 +2166,14 @@ Private Function QuickConfigRemoting(session, cmdlineOptions, serviceOnly)
     
     If (enabled = "true") Then
         If (serviceOnly = true) Then
-            stdOut.WriteLine dapatResource("L_QuickConfigNoServiceChangesNeeded_Message2")
+            stdOut.WriteLine dapatResource("L_atursegeraNoServiceChangesNeeded_Message2")
         Else
-            stdOut.WriteLine dapatResource("L_QuickConfigNoChangesNeeded_Message")
+            stdOut.WriteLine dapatResource("L_atursegeraNoChangesNeeded_Message")
         End If
         Exit Function
     End If
     If (enabled <> "false") Then
-        stdErr.WriteLine dapatResource("L_QuickConfig_InvalidBool_0_ErrorMessage")
+        stdErr.WriteLine dapatResource("L_atursegera_InvalidBool_0_ErrorMessage")
         Exit Function
     End If
 
@@ -2181,7 +2181,7 @@ Private Function QuickConfigRemoting(session, cmdlineOptions, serviceOnly)
     updateInputXml = dapatElementByXpath(analysisOutput, xpathUpdate)
 
     if (source = "GPO") Then
-        stdErr.WriteLine dapatResource("L_ERR_Message") & dapatResource("L_QuickConfig_RemotingDisabledbyGP_00_ErrorMessage")
+        stdErr.WriteLine dapatResource("L_ERR_Message") & dapatResource("L_atursegera_RemotingDisabledbyGP_00_ErrorMessage")
         stdErr.WriteLine displayText
         Exit Function
     End If
@@ -2189,22 +2189,22 @@ Private Function QuickConfigRemoting(session, cmdlineOptions, serviceOnly)
 'wscript.echo updateInputXml
     
     If (updateInputXml = "" OR displayText = "") Then
-        stdErr.WriteLine dapatResource("L_ERR_Message") & dapatResource("L_QuickConfig_MissingUpdateXml_0_ErrorMessage")
+        stdErr.WriteLine dapatResource("L_ERR_Message") & dapatResource("L_atursegera_MissingUpdateXml_0_ErrorMessage")
         Exit Function
     End If 
     
     If (serviceOnly = true) Then
-        stdOut.writeline dapatResource("L_QuickConfig_ServiceUpdatesNeeded_0_Message")
+        stdOut.writeline dapatResource("L_atursegera_ServiceUpdatesNeeded_0_Message")
     Else
-        stdOut.writeline dapatResource("L_QuickConfig_UpdatesNeeded_0_Message")
+        stdOut.writeline dapatResource("L_atursegera_UpdatesNeeded_0_Message")
     End If
-    stdOut.writeline dapatResource("L_QuickConfig_UpdatesNeeded_1_Message")
+    stdOut.writeline dapatResource("L_atursegera_UpdatesNeeded_1_Message")
     stdOut.writeline ""
     stdOut.writeline displayText
     stdOut.writeline ""
 
     If (Not cmdlineOptions.ArgumentExists(NPARA_QUIET) And Not cmdlineOptions.ArgumentExists(NPARA_FORCE)) Then
-        stdOut.write     dapatResource("L_QuickConfig_Prompt_0_Message")
+        stdOut.write     dapatResource("L_atursegera_Prompt_0_Message")
         dim answer
         answer = LCase(stdIn.ReadLine)
         If answer <> "y" And answer <> "yes" Then
@@ -2259,12 +2259,12 @@ Private Function QuickConfigRemoting(session, cmdlineOptions, serviceOnly)
     resultText = dapatElementByXpath(updateOutput, xpathResult)
     If (status = "succeeded") Then
         If (serviceOnly = true) Then
-            stdOut.WriteLine dapatResource("L_QuickConfigUpdatedService_Message")
+            stdOut.WriteLine dapatResource("L_atursegeraUpdatedService_Message")
         Else
-            stdOut.WriteLine dapatResource("L_QuickConfigUpdated_Message")
+            stdOut.WriteLine dapatResource("L_atursegeraUpdated_Message")
         End If
     Else
-        stdErr.WriteLine dapatResource("L_ERR_Message") & dapatResource("L_QuickConfigUpdateFailed_ErrorMessage")
+        stdErr.WriteLine dapatResource("L_ERR_Message") & dapatResource("L_atursegeraUpdateFailed_ErrorMessage")
     End If
 
     If (resultText <> "") Then
@@ -3122,12 +3122,12 @@ Private Sub BantuMenu(topic, stream)
     BantuMenu.Add OP_Bantu, "BantuBantu"
     BantuMenu.Add OP_dapat,  "Bantudapat"
     BantuMenu.Add OP_PUT,  "BantuSet"
-    BantuMenu.Add OP_CONFIGSDDL,  "BantuConfigSDDL"
+    BantuMenu.Add OP_aturSSDL,  "BantuaturSSDL"
     BantuMenu.Add OP_CRE,  "BantuCreate"
     BantuMenu.Add OP_DEL,  "BantuDelete"
     BantuMenu.Add OP_ENU,  "BantuEnum"
     BantuMenu.Add OP_INV,  "BantuInvoke"
-    BantuMenu.Add OP_QUICKCONFIG,  "BantuQuickConfig"
+    BantuMenu.Add OP_atursegera,  "Bantuatursegera"
     BantuMenu.Add OP_IDENTIFY,  "BantuIdentify"
     BantuMenu.Add OP_BantuMSG,  "BantuMsg"
 
@@ -3202,34 +3202,34 @@ Private Sub BantuAll(stream)
     dim NL 
     NL = vbNewLine
 
-    BantuTopic stream, "myrt -?"
+    BantuTopic stream, "myrt -alex"
     BantuBantu stream
     
-    BantuTopic stream, "myrt dapat -?"
+    BantuTopic stream, "myrt dapat -alex"
     Bantudapat stream
 
-    BantuTopic stream, "myrt set -?"
+    BantuTopic stream, "myrt set -alex"
     BantuSet stream
 
-    BantuTopic stream, "myrt create -?"
+    BantuTopic stream, "myrt create -alex"
     BantuCreate stream
 
-    BantuTopic stream, "myrt delete -?"
+    BantuTopic stream, "myrt delete -alex"
     BantuDelete stream
 
-    BantuTopic stream, "myrt enumerate -?"
+    BantuTopic stream, "myrt enumerate -alex"
     BantuEnum stream
 
-    BantuTopic stream, "myrt invoke -?"
+    BantuTopic stream, "myrt invoke -alex"
     BantuInvoke stream
 
-    BantuTopic stream, "myrt identify -?"
+    BantuTopic stream, "myrt identify -alex"
     BantuIdentify stream
 
-    BantuTopic stream, "myrt quickconfig -?"
-    BantuQuickConfig stream
+    BantuTopic stream, "myrt atursegera -alex"
+    Bantuatursegera stream
 
-    BantuTopic stream, "myrt Bantumsg -?"
+    BantuTopic stream, "myrt Bantumsg -alex"
     BantuMsg stream
 	
     BantuTopic stream, "myrt bantu uris"
@@ -3241,8 +3241,8 @@ Private Sub BantuAll(stream)
     BantuTopic stream, "myrt Bantu config"
     BantuConfig stream
 
-    BantuTopic stream, "myrt Bantu configsddl"
-    BantuConfigsddl stream
+    BantuTopic stream, "myrt Bantu aturSSDL"
+    BantuaturSSDL stream
 
     BantuTopic stream, "myrt Bantu certmapping"
     BantuCertMapping stream
@@ -3334,23 +3334,23 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - CONFIGSDDL
-Private Sub BantuConfigsddl(stream)
+' Bantu - aturSSDL
+Private Sub BantuaturSSDL(stream)
 dim NL 
 NL = vbNewLine
 stream.WriteLine _
-dapatResource("L_BantuConfigsddl_000_1_Message") & NL & _
-dapatResource("L_BantuConfigsddl_001_0_Message") & NL & _
-dapatResource("L_BantuConfigsddl_002_0_Message") & NL & _
-dapatResource("L_BantuConfigsddl_002_1_Message") & NL & _
-dapatResource("L_BantuConfigsddl_003_0_Message") & NL & _
-dapatResource("L_BantuConfigsddl_004_0_Message") & NL & _
-dapatResource("L_BantuConfigsddl_005_0_Message") & NL & _
-dapatResource("L_BantuConfigsddl_005_1_Message") & NL & _
-dapatResource("L_BantuConfigsddl_006_0_Message") & NL & _
-dapatResource("L_BantuConfigsddl_010_0_Message") & NL & _
-dapatResource("L_BantuConfigsddl_011_0_Message") & NL & _
-dapatResource("X_BantuConfigsddl_012_0_Message") & NL & _
+dapatResource("L_BantuaturSSDL_000_1_Message") & NL & _
+dapatResource("L_BantuaturSSDL_001_0_Message") & NL & _
+dapatResource("L_BantuaturSSDL_002_0_Message") & NL & _
+dapatResource("L_BantuaturSSDL_002_1_Message") & NL & _
+dapatResource("L_BantuaturSSDL_003_0_Message") & NL & _
+dapatResource("L_BantuaturSSDL_004_0_Message") & NL & _
+dapatResource("L_BantuaturSSDL_005_0_Message") & NL & _
+dapatResource("L_BantuaturSSDL_005_1_Message") & NL & _
+dapatResource("L_BantuaturSSDL_006_0_Message") & NL & _
+dapatResource("L_BantuaturSSDL_010_0_Message") & NL & _
+dapatResource("L_BantuaturSSDL_011_0_Message") & NL & _
+dapatResource("X_BantuaturSSDL_012_0_Message") & NL & _
 dapatResource("L_Bantu_Blank_0_Message") & NL & _
 dapatResource("L_Bantu_SeeAlso_Title_Message")  & NL & _
 dapatResource("X_Bantu_SeeAlso_Switches_Message")
@@ -4081,7 +4081,7 @@ dapatResource("X_BantuCertMappingExamples_004_0_Message") & NL & _
 dapatResource("L_BantuCertMappingExamples_005_0_Message") & NL & _
 dapatResource("L_Bantu_Blank_0_Message") & NL & _
 dapatResource("L_Bantu_SeeAlso_Title_Message") & NL & _
-dapatResource("X_Bantu_SeeAlso_configSDDL_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_aturSSDL_Message") & NL & _
 dapatResource("X_Bantu_SeeAlso_Input_Message") & NL & _
 dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
@@ -4125,33 +4125,33 @@ dapatResource("L_Bantu_SeeAlso_Title_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - QUICKCONFIG
-Private Sub BantuQuickConfig(stream)
+' Bantu - atursegera
+Private Sub Bantuatursegera(stream)
 dim NL 
 NL = vbNewLine
 stream.WriteLine _
-dapatResource("X_BantuQuickConfig_001_0_Message") & NL & _
-dapatResource("X_BantuQuickConfig_002_0_Message") & NL & _
-dapatResource("L_BantuQuickConfig_003_0_Message") & NL & _
-dapatResource("L_BantuQuickConfig_004_0_Message") & NL & _
-dapatResource("L_BantuQuickConfig_005_0_Message") & NL & _
-dapatResource("L_BantuQuickConfig_006_0_Message") & NL & _
-dapatResource("L_BantuQuickConfig_007_0_Message") & NL & _
-dapatResource("L_BantuQuickConfig_008_0_Message") & NL & _
-dapatResource("X_BantuQuickConfig_009_0_Message") & NL & _
-dapatResource("X_BantuQuickConfig_010_0_Message") & NL & _
-dapatResource("X_BantuQuickConfig_010_1_Message") & NL & _
-dapatResource("L_BantuQuickConfig_011_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_001_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_002_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_003_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_004_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_005_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_006_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_007_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_008_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_009_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_010_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_010_1_Message") & NL & _
+dapatResource("L_Bantuatursegera_011_0_Message") & NL & _
 dapatResource("L_Bantu_Blank_0_Message") & NL & _
-dapatResource("X_BantuQuickConfig_012_0_Message") & NL & _
-dapatResource("X_BantuQuickConfig_013_0_Message") & NL & _
-dapatResource("L_BantuQuickConfig_014_0_Message") & NL & _
-dapatResource("L_BantuQuickConfig_015_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_012_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_013_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_014_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_015_0_Message") & NL & _
 dapatResource("L_Bantu_Blank_0_Message") & NL & _
-dapatResource("X_BantuQuickConfig_016_0_Message") & NL & _
-dapatResource("X_BantuQuickConfig_017_0_Message") & NL & _
-dapatResource("L_BantuQuickConfig_018_0_Message") & NL & _
-dapatResource("L_BantuQuickConfig_019_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_016_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_017_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_018_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_019_0_Message") & NL & _
 dapatResource("L_Bantu_Blank_0_Message") & NL & _
 dapatResource("L_Bantu_SeeAlso_Title_Message") & NL & _
 dapatResource("X_Bantu_SeeAlso_Config_Message")
