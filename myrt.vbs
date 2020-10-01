@@ -104,7 +104,7 @@ private const L_BantuBantu_002_0_Message = "command protocal diubahsuai oleh:[AL
 private const L_BantuBantu_003_0_Message = "kegunaan:"
 private const L_BantuBantu_004_0_Message = "  myrt OPERASI PUNCA_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuBantu_005_0_Message = "        [@{KUNCI=NILAI[;KUNCI=NILAI]...}]"
-private const L_BantuBantu_007_0_Message = ""
+private const L_BantuBantu_007_0_Message = "#beserta commmand command haram yang lain"
 private const L_BantuBantu_008_0_Message = "Untuk bantu mengenai operasi tertentu:"
 private const L_BantuBantu_009_0_Message = "	myrt d[apat] 	-alex      Mendapatkan pengurusan maklumat"
 private const L_BantuBantu_010_0_Message = " 	myrt s[et] 	-alex      Mengubah pengurusan informasi."
