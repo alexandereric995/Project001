@@ -17,28 +17,28 @@ private const ERR_GENERAL_FAILURE = 1
 
 '''''''''''''''''''''
 ' Messages
-private const L_ONLYCSCRIPT_Message     = "hanya boleh dilaksanakan menggunakan cscript.exe."
-private const L_UNKOPNM_Message         = "Nama Operasi Tidak Diketahui: "
+private const L_ONLYCSCRIPT_Message     = "Can be executed only by cscript.exe."
+private const L_UNKOPNM_Message         = "Unknown operation name: "
 private const L_OP_Message              = "Operation - "
-private const L_NOFILE_Message          = "Fail tidak wujud: "
-private const L_PARZERO_Message         = "Nilai parameter anda adalah kosong #"
-private const L_INVOPT_ErrorMessage     = "Nilai yang dinyatakan tidak dapat dibenarkan oleh operasi: "
-private const L_UNKOPT_ErrorMessage     = "Altantuya tidak diketahui: "
-private const L_BLANKOPT_ErrorMessage   = "Nama Altantuya Hilang"
-private const L_UNKOPT_GenMessage       = "Command line yang dimasukkan salah. Taip "myrt -alex" untuk bantuan."
-private const L_Bantu_GenMessage         = "Taipkan 'myrt-alex' untuk bantuan."
-private const L_ScriptNameNotFound_ErrorMessage = "Kesalahan Antap bah!  myrt.vbs tidak dijumpai pada perisian system."
-private const L_ImproperUseOfQuotes_ErrorMessage = "Nilai parameter mestilah dimulai dan berakhir dengan simbol quote. Paloi: "
-private const L_BADMATCNT1_Message      = "Mana ada nilai sama - satu samalah. you rabun kah buta?:: "
-private const L_OPTNOTUNQ_Message       = "Aturan tidak best, tidak sesuai, TIDAK UNIK. Tukar?: "
-private const L_URIMISSING_Message      = "Bodo nya tok. URI hilang"
-private const L_ACTIONMISSING_Message   = "Aih?!Tiada langkah meh?!"
-private const L_URIZERO_Message         = "Pahal nilai URI 0? pelik. Set semula!"    
+private const L_NOFILE_Message          = "File does not exist: "
+private const L_PARZERO_Message         = "Parameter is zero length #"
+private const L_INVOPT_ErrorMessage     = "Switch not allowed with the given operation: "
+private const L_UNKOPT_ErrorMessage     = "Unknown switch: "
+private const L_BLANKOPT_ErrorMessage   = "Missing switch name"
+private const L_UNKOPT_GenMessage       = "Invalid use of command line. Type ""myrt -alex"" for Bantu."
+private const L_Bantu_GenMessage         = "Type ""myrt -alex"" for Bantu."
+private const L_ScriptNameNotFound_ErrorMessage = "Invalid usage of command line; myrt.vbs not found in command string."
+private const L_ImproperUseOfQuotes_ErrorMessage = "A quoted parameter value must begin and end with quotes: "
+private const L_BADMATCNT1_Message      = "Unexpected match count - one match is expected: "
+private const L_OPTNOTUNQ_Message       = "Option is not unique: "
+private const L_URIMISSING_Message      = "URI is missing"
+private const L_ACTIONMISSING_Message   = "Action is missing"
+private const L_URIZERO_Message         = "URI is 0 length"    
 private const L_URIZEROTOK_Message      = "Invalid URI, token is 0 length"    
 private const L_INVWMIURI1_Message      = "Invalid WMI resource URI - no '/' found  (at least 2 expected)"
 private const L_INVWMIURI2_Message      = "Invalid WMI resource URI - only one '/' found (at least 2 expected)"
 private const L_NOLASTTOK_Message       = "Invalid URI - cannot locate last token for root node name"
-private const L_HashSyntax_ErrorMessage = "Syntax Salah: input must be of the form {KEY=""VALUE""[;KEY=""VALUE""]}"
+private const L_HashSyntax_ErrorMessage = "Syntax Error: input must be of the form {KEY=""VALUE""[;KEY=""VALUE""]}"
 private const L_ARGNOVAL_Message        = "Argument's value is not provided: "
 private const L_XMLERROR_Message        = "Unable to parse XML: "
 private const L_XSLERROR_Message        = "Unable to parse XSL file. Either it is inaccessible or invalid: "
@@ -53,7 +53,7 @@ private const L_PUT_PARAM_EMPTY_Message = "Parameter set is empty."
 private const L_OPTIONS_PARAMETER_EMPTY_Message = "Options parameter has no value or is malformed."
 private const L_RESOURCELOCATOR_Message = "Unable to create ResourceLocator object."
 private const L_PUT_PARAM_NOINPUT_Message = "No input provided through ""@{...}"" or ""-file:"" commandline parameters."
-private const L_ERR_Message = "Salah: "
+private const L_ERR_Message = "Error: "
 private const L_ERRNO_Message = "Error number: "
 private const L_OpDoesntAcceptInput_ErrorMessage = "Input was supplied to an operation that does not accept input."
 private const L_atursegeraNoChangesNeeded_Message = "myrt is already set up for remote management on this computer."
@@ -100,7 +100,7 @@ private const X_Bantu_SeeAlso_aturSSDL_Message = "myrt aturSSDL -alex"
 private const L_BantuBantu_000_0_Message = "Window Malaysia Remote Management (myrt) ialah penerapan Microsoft untuk "
 private const L_BantuBantu_001_0_Message = "WS-Protokol Pengurusan yang membenarkan komunikasi yang lebih baik "
 private const L_BantuBantu_001_1_Message = "antara 'local' dan mesin mudah alih menggunakan internet atau web servis.  "
-private const L_BantuBantu_002_0_Message = "command protocol diubahsuai oleh:[ALEXANDER ERIC]"
+private const L_BantuBantu_002_0_Message = "command protocal diubahsuai oleh:[ALEXANDER ERIC]"
 private const L_BantuBantu_003_0_Message = "kegunaan:"
 private const L_BantuBantu_004_0_Message = "  myrt OPERASI PUNCA_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
 private const L_BantuBantu_005_0_Message = "        [@{KUNCI=NILAI[;KUNCI=NILAI]...}]"
@@ -3752,6 +3752,479 @@ dapatResource("L_BantuFilter_014_0_Message") & NL & _
 dapatResource("X_BantuFilter_015_0_Message") & NL & _
 dapatResource("X_BantuFilter_016_0_Message") & NL & _
 dapatResource("X_BantuFilter_016_1_Message") & NL & _
+dapatResource("X_BantuFilter_017_0_Message") & NL & _
+dapatResource("L_BantuFilter_018_0_Message") & NL & _
+dapatResource("X_BantuFilter_019_0_Message") & NL & _
+dapatResource("L_BantuFilter_019_1_Message") & NL & _
+dapatResource("L_BantuFilter_019_2_Message") & NL & _
+dapatResource("X_BantuFilter_019_3_Message") & NL & _
+dapatResource("X_BantuFilter_019_4_Message") & NL & _
+dapatResource("X_BantuFilter_019_5_Message") & NL & _
+dapatResource("L_BantuFilter_020_0_Message") & NL & _
+dapatResource("X_BantuFilter_021_0_Message") & NL & _
+dapatResource("X_BantuFilter_022_0_Message") & NL & _
+dapatResource("L_BantuFilter_023_0_Message") & NL & _
+dapatResource("X_BantuFilter_024_0_Message") & NL & _
+dapatResource("L_BantuFilter_025_0_Message") & NL & _
+dapatResource("L_BantuFilter_026_0_Message") & NL & _
+dapatResource("X_BantuFilter_027_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_SeeAlso_Title_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Enumerate_Message")
+End Sub
+
+
+'''''''''''''''''''''
+' Bantu - SWITCHES
+Private Sub BantuSwitches(stream)
+dim NL 
+NL = vbNewLine
+stream.WriteLine _
+dapatResource("L_BantuSwitchTimeout_001_0_Message") & NL & _
+dapatResource("L_BantuSwitchTimeout_002_0_Message") & NL & _
+dapatResource("L_BantuSwitchTimeout_003_0_Message") & NL & _
+dapatResource("L_BantuSwitchTimeout_004_0_Message") & NL & _
+dapatResource("X_BantuSwitchTimeout_005_0_Message") & NL & _
+dapatResource("L_BantuSwitchTimeout_006_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("X_BantuSwitchSkipCACheck_001_0_Message") & NL & _
+dapatResource("L_BantuSwitchSkipCACheck_002_0_Message") & NL & _
+dapatResource("L_BantuSwitchSkipCACheck_003_0_Message") & NL & _
+dapatResource("L_BantuSwitchSkipCACheck_004_0_Message") & NL & _
+dapatResource("L_BantuSwitchSkipCACheck_005_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("X_BantuSwitchSkipCNCheck_001_0_Message") & NL & _
+dapatResource("L_BantuSwitchSkipCNCheck_002_0_Message") & NL & _
+dapatResource("L_BantuSwitchSkipCNCheck_003_0_Message") & NL & _
+dapatResource("L_BantuSwitchSkipCNCheck_004_0_Message") & NL & _
+dapatResource("L_BantuSwitchSkipCNCheck_005_0_Message") & NL & _
+dapatResource("L_BantuSwitchSkipCNCheck_006_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("X_BantuSwitchSkipRevCheck_001_0_Message") & NL & _
+dapatResource("X_BantuSwitchSkipRevCheck_002_0_Message") & NL & _
+dapatResource("L_BantuSwitchSkipRevCheck_003_0_Message") & NL & _
+dapatResource("L_BantuSwitchSkipRevCheck_004_0_Message") & NL & _
+dapatResource("L_BantuSwitchSkipRevCheck_005_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("X_BantuSwitchDefaultCreds_001_0_Message") & NL & _
+dapatResource("X_BantuSwitchDefaultCreds_002_0_Message") & NL & _
+dapatResource("L_BantuSwitchDefaultCreds_003_0_Message") & NL & _
+dapatResource("L_BantuSwitchDefaultCreds_004_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuSwitchDialect_001_0_Message") & NL & _
+dapatResource("L_BantuSwitchDialect_002_0_Message") & NL & _
+dapatResource("L_BantuSwitchDialect_003_0_Message") & NL & _
+dapatResource("L_BantuSwitchDialect_004_0_Message") & NL & _
+dapatResource("X_BantuSwitchDialect_005_0_Message") & NL & _
+dapatResource("L_BantuSwitchDialect_006_0_Message") & NL & _
+dapatResource("X_BantuSwitchDialect_007_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuSwitchFragment_001_0_Message") & NL & _
+dapatResource("L_BantuSwitchFragment_002_0_Message") & NL & _
+dapatResource("L_BantuSwitchFragment_003_0_Message") & NL & _
+dapatResource("L_BantuSwitchFragment_004_0_Message") & NL & _
+dapatResource("L_BantuSwitchFragment_005_0_Message") & NL & _
+dapatResource("X_BantuSwitchFragment_006_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuSwitchOption_001_0_Message") & NL & _
+dapatResource("L_BantuSwitchOption_002_0_Message") & NL & _
+dapatResource("L_BantuSwitchOption_003_0_Message") & NL & _
+dapatResource("L_BantuSwitchOption_004_0_Message") & NL & _
+dapatResource("L_BantuSwitchOption_005_0_Message") & NL & _
+dapatResource("L_BantuSwitchOption_006_0_Message") & NL & _
+dapatResource("X_BantuSwitchOption_007_0_Message") & NL & _
+dapatResource("X_BantuSwitchOption_008_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("X_BantuSwitchSPNPort_001_0_Message") & NL & _
+dapatResource("L_BantuSwitchSPNPort_002_0_Message") & NL & _
+dapatResource("L_BantuSwitchSPNPort_003_0_Message") & NL & _
+dapatResource("L_BantuSwitchSPNPort_004_0_Message") & NL & _
+dapatResource("L_BantuSwitchSPNPort_005_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuSwitchEncoding_001_0_Message") & NL & _
+dapatResource("L_BantuSwitchEncoding_002_0_Message") & NL & _
+dapatResource("L_BantuSwitchEncoding_003_0_Message") & NL & _
+dapatResource("L_BantuSwitchEncoding_004_0_Message") & NL & _
+dapatResource("L_BantuSwitchEncoding_005_0_Message") & NL & _
+dapatResource("L_BantuSwitchEncoding_006_0_Message") & NL & _
+dapatResource("X_BantuSwitchEncoding_007_0_Message") & NL & _
+dapatResource("X_BantuSwitchEncoding_008_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuSwitchFormat_001_0_Message") & NL & _
+dapatResource("L_BantuSwitchFormat_002_0_Message") & NL & _
+dapatResource("L_BantuSwitchFormat_003_0_Message") & NL & _
+dapatResource("L_BantuSwitchFormat_004_0_Message") & NL & _
+dapatResource("L_BantuSwitchFormat_005_0_Message") & NL & _
+dapatResource("X_BantuSwitchFormat_006_0_Message") & NL & _
+dapatResource("X_BantuSwitchFormat_007_0_Message") & NL & _
+dapatResource("X_BantuSwitchFormat_008_0_Message")
+End Sub
+
+'''''''''''''''''''''
+' Bantu - INPUT
+Private Sub BantuInput(stream)
+dim NL 
+NL = vbNewLine
+stream.WriteLine _
+dapatResource("L_BantuInput_001_0_Message") & NL & _
+dapatResource("L_BantuInput_002_0_Message") & NL & _
+dapatResource("L_BantuInput_003_0_Message") & NL & _
+dapatResource("L_BantuInput_004_0_Message") & NL & _
+dapatResource("L_BantuInput_005_0_Message") & NL & _
+dapatResource("L_BantuInput_006_0_Message") & NL & _
+dapatResource("L_BantuInput_007_0_Message") & NL & _
+dapatResource("L_BantuInput_008_0_Message") & NL & _
+dapatResource("L_BantuInput_009_0_Message") & NL & _
+dapatResource("L_BantuInput_010_0_Message") & NL & _
+dapatResource("L_BantuInput_011_0_Message") & NL & _
+dapatResource("L_BantuInput_012_0_Message") & NL & _
+dapatResource("L_BantuInput_013_0_Message") & NL & _
+dapatResource("L_BantuInput_014_0_Message") & NL & _
+dapatResource("L_BantuInput_015_0_Message") & NL & _
+dapatResource("L_BantuInput_016_0_Message") & NL & _
+dapatResource("L_BantuInput_017_0_Message") & NL & _
+dapatResource("L_BantuInput_018_0_Message") & NL & _
+dapatResource("L_BantuInput_019_0_Message") & NL & _
+dapatResource("L_BantuInput_020_0_Message") & NL & _
+dapatResource("L_BantuInput_021_0_Message") & NL & _
+dapatResource("L_BantuInput_022_0_Message") & NL & _
+dapatResource("X_BantuInput_023_0_Message") & NL & _
+dapatResource("X_BantuInput_024_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_SeeAlso_Title_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Set_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Create_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Invoke_Message")
+End Sub
+
+'''''''''''''''''''''
+' Bantu - REMOTE
+Private Sub BantuRemote(stream)
+dim NL 
+NL = vbNewLine
+stream.WriteLine _
+dapatResource("L_BantuRemote_001_0_Message") & NL & _
+dapatResource("L_BantuRemote_002_0_Message") & NL & _
+dapatResource("L_BantuRemote_003_0_Message") & NL & _
+dapatResource("L_BantuRemote_004_0_Message") & NL & _
+dapatResource("L_BantuRemote_005_0_Message") & NL & _
+dapatResource("L_BantuRemote_006_0_Message") & NL & _
+dapatResource("L_BantuRemote_007_0_Message") & NL & _
+dapatResource("L_BantuRemote_008_0_Message") & NL & _
+dapatResource("L_BantuRemote_009_0_Message") & NL & _
+dapatResource("L_BantuRemote_010_0_Message") & NL & _
+dapatResource("L_BantuRemote_011_0_Message") & NL & _
+dapatResource("L_BantuRemote_012_0_Message") & NL & _
+dapatResource("L_BantuRemote_012_1_Message") & NL & _
+dapatResource("L_BantuRemote_012_2_Message") & NL & _
+dapatResource("L_BantuRemote_012_3_Message") & NL & _
+dapatResource("L_BantuRemote_012_4_Message") & NL & _
+dapatResource("L_BantuRemote_012_5_Message") & NL & _
+dapatResource("L_BantuRemote_012_6_Message") & NL & _
+dapatResource("L_BantuRemote_013_0_Message") & NL & _
+dapatResource("L_BantuRemote_014_0_Message") & NL & _
+dapatResource("L_BantuRemote_015_0_Message") & NL & _
+dapatResource("L_BantuRemote_016_0_Message") & NL & _
+dapatResource("L_BantuRemote_017_0_Message") & NL & _
+dapatResource("L_BantuRemote_018_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuRemoteExample_001_0_Message") & NL & _
+dapatResource("X_BantuRemoteExample_002_0_Message") & NL & _
+dapatResource("L_BantuRemoteExample_003_0_Message") & NL & _
+dapatResource("L_BantuRemoteExample_004_0_Message") & NL & _
+dapatResource("X_BantuRemoteExample_005_0_Message") & NL & _
+dapatResource("L_BantuRemoteExample_006_0_Message") & NL & _
+dapatResource("L_BantuRemoteExample_007_0_Message") & NL & _
+dapatResource("X_BantuRemoteExample_008_0_Message") & NL & _
+dapatResource("L_BantuRemoteExample_009_0_Message") & NL & _
+dapatResource("L_BantuRemoteExample_010_0_Message") & NL & _
+dapatResource("X_BantuRemoteExample_011_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuRemoteUnencrypted_001_0_Message") & NL & _
+dapatResource("L_BantuRemoteUnencrypted_002_0_Message") & NL & _
+dapatResource("L_BantuRemoteUnencrypted_003_0_Message") & NL & _
+dapatResource("L_BantuRemoteUnencrypted_004_0_Message") & NL & _
+dapatResource("L_BantuRemoteUnencrypted_005_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuRemoteUseSsl_001_0_Message") & NL & _
+dapatResource("L_BantuRemoteUseSsl_002_0_Message") & NL & _
+dapatResource("L_BantuRemoteUseSsl_003_0_Message") & NL & _
+dapatResource("L_BantuRemoteUseSsl_004_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuRemoteConfig_001_0_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Config_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_SeeAlso_Title_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Uris_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Aliases_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Input_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Switches_Message")
+End Sub
+
+'''''''''''''''''''''
+' Bantu - CONFIG
+Private Sub BantuConfig(stream)
+dim NL 
+NL = vbNewLine
+stream.WriteLine _
+dapatResource("L_BantuConfig_001_0_Message") & NL & _
+dapatResource("L_BantuConfig_002_0_Message") & NL & _
+dapatResource("L_BantuConfig_003_0_Message") & NL & _
+dapatResource("L_BantuConfig_004_0_Message") & NL & _
+dapatResource("L_BantuConfig_005_0_Message") & NL & _
+dapatResource("L_BantuConfig_006_0_Message") & NL & _
+dapatResource("L_BantuConfig_007_0_Message") & NL & _
+dapatResource("L_BantuConfig_008_0_Message") & NL & _
+dapatResource("L_BantuConfig_009_0_Message") & NL & _
+dapatResource("X_BantuConfig_010_0_Message") & NL & _
+dapatResource("X_BantuConfig_011_0_Message") & NL & _
+dapatResource("X_BantuConfig_012_0_Message") & NL & _
+dapatResource("X_BantuConfig_012_1_Message") & NL & _
+dapatResource("X_BantuConfig_012_2_Message") & NL & _
+dapatResource("X_BantuConfig_012_3_Message") & NL & _
+dapatResource("X_BantuConfig_012_4_Message") & NL & _
+dapatResource("L_BantuConfig_013_0_Message") & NL & _
+dapatResource("L_BantuConfig_014_0_Message") & NL & _
+dapatResource("L_BantuConfig_015_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuConfigAddress_001_0_Message") & NL & _
+dapatResource("L_BantuConfigAddress_002_0_Message") & NL & _
+dapatResource("L_BantuConfigAddress_003_0_Message") & NL & _
+dapatResource("L_BantuConfigAddress_004_0_Message") & NL & _
+dapatResource("L_BantuConfigAddress_005_0_Message") & NL & _
+dapatResource("L_BantuConfigAddress_006_0_Message") & NL & _
+dapatResource("L_BantuConfigAddress_007_0_Message") & NL & _
+dapatResource("L_BantuConfigAddress_008_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_001_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_002_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_003_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_004_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_005_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_006_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_007_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_008_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_009_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_010_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_011_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_012_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_013_0_Message") & NL & _
+dapatResource("L_BantuConfigTransport_014_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuConfigExamples_001_0_Message") & NL & _
+dapatResource("X_BantuConfigExamples_002_0_Message") & NL & _
+dapatResource("L_BantuConfigExamples_003_0_Message") & NL & _
+dapatResource("L_BantuConfigExamples_004_0_Message") & NL & _
+dapatResource("X_BantuConfigExamples_005_0_Message") & NL & _
+dapatResource("L_BantuConfigExamples_006_0_Message") & NL & _
+dapatResource("L_BantuConfigExamples_007_0_Message") & NL & _
+dapatResource("X_BantuConfigExamples_008_0_Message") & NL & _
+dapatResource("L_BantuConfigExamples_009_0_Message") & NL & _
+dapatResource("L_BantuConfigExamples_010_0_Message") & NL & _
+dapatResource("X_BantuConfigExamples_011_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_SeeAlso_Title_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Uris_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Aliases_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_CertMapping_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Input_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Switches_Message")
+End Sub
+
+'''''''''''''''''''''
+' Bantu - CertMapping
+Private Sub BantuCertMapping(stream)
+dim NL 
+NL = vbNewLine
+stream.WriteLine _
+dapatResource("L_BantuCertMapping_001_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_002_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_003_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_003_1_Message") & NL & _
+dapatResource("L_BantuCertMapping_004_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_005_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_006_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_007_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_008_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_009_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_009_1_Message") & NL & _
+dapatResource("L_BantuCertMapping_009_2_Message") & NL & _
+dapatResource("L_BantuCertMapping_009_3_Message") & NL & _
+dapatResource("L_BantuCertMapping_010_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_011_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_012_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_012_1_Message") & NL & _
+dapatResource("L_BantuCertMapping_012_2_Message") & NL & _
+dapatResource("L_BantuCertMapping_013_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_014_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_014_1_Message") & NL & _
+dapatResource("L_BantuCertMapping_014_2_Message") & NL & _
+dapatResource("L_BantuCertMapping_014_3_Message") & NL & _
+dapatResource("L_BantuCertMapping_014_4_Message") & NL & _
+dapatResource("L_BantuCertMapping_015_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_016_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_017_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_018_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_019_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_020_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_021_0_Message") & NL & _
+dapatResource("L_BantuCertMapping_022_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuCertMappingExamples_001_0_Message") & NL & _
+dapatResource("X_BantuCertMappingExamples_002_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuCertMappingExamples_003_0_Message") & NL & _
+dapatResource("X_BantuCertMappingExamples_004_0_Message") & NL & _
+dapatResource("L_BantuCertMappingExamples_005_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_SeeAlso_Title_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_aturSSDL_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Input_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Switches_Message")
+End Sub
+
+'''''''''''''''''''''
+' Bantu - CUSTOMREMOTESHELL
+Private Sub BantuCustomRemoteShell(stream)
+dim NL 
+NL = vbNewLine
+stream.WriteLine _
+dapatResource("L_BantuCustomRemoteShell_001_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_001_1_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_002_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_003_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_004_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_005_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_006_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_007_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_008_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_009_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_010_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_011_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_011_1_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_012_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_012_1_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_012_2_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_013_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_013_1_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShell_014_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShellExamples_001_0_Message") & NL & _
+dapatResource("X_BantuCustomRemoteShellExamples_002_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShellExamples_003_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShellExamples_004_0_Message") & NL & _
+dapatResource("X_BantuCustomRemoteShellExamples_005_0_Message") & NL & _
+dapatResource("L_BantuCustomRemoteShellExamples_006_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_SeeAlso_Title_Message")
+End Sub
+
+'''''''''''''''''''''
+' Bantu - atursegera
+Private Sub Bantuatursegera(stream)
+dim NL 
+NL = vbNewLine
+stream.WriteLine _
+dapatResource("X_Bantuatursegera_001_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_002_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_003_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_004_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_005_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_006_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_007_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_008_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_009_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_010_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_010_1_Message") & NL & _
+dapatResource("L_Bantuatursegera_011_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_012_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_013_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_014_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_015_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_016_0_Message") & NL & _
+dapatResource("X_Bantuatursegera_017_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_018_0_Message") & NL & _
+dapatResource("L_Bantuatursegera_019_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_SeeAlso_Title_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Config_Message")
+End Sub
+
+'''''''''''''''''''''
+' Bantu - URIS
+Private Sub BantuUris(stream)
+dim NL 
+NL = vbNewLine
+stream.WriteLine _
+dapatResource("L_BantuUris_001_0_Message") & NL & _
+dapatResource("L_BantuUris_002_0_Message") & NL & _
+dapatResource("L_BantuUris_003_0_Message") & NL & _
+dapatResource("L_BantuUris_004_0_Message") & NL & _
+dapatResource("X_BantuUris_005_0_Message") & NL & _
+dapatResource("L_BantuUris_006_0_Message") & NL & _
+dapatResource("L_BantuUris_007_0_Message") & NL & _
+dapatResource("X_BantuUris_008_0_Message") & NL & _
+dapatResource("X_BantuUris_009_0_Message") & NL & _
+dapatResource("X_BantuUris_010_0_Message") & NL & _
+dapatResource("L_BantuUris_011_0_Message") & NL & _
+dapatResource("L_BantuUris_012_0_Message") & NL & _
+dapatResource("X_BantuUris_013_0_Message") & NL & _
+dapatResource("X_BantuUris_013_1_Message") & NL & _
+dapatResource("X_BantuUris_014_0_Message") & NL & _
+dapatResource("L_BantuUris_015_0_Message") & NL & _
+dapatResource("L_BantuUris_015_1_Message") & NL & _
+dapatResource("L_BantuUris_015_2_Message") & NL & _
+dapatResource("L_BantuUris_015_3_Message") & NL & _
+dapatResource("X_BantuUris_015_4_Message") & NL & _
+dapatResource("L_BantuUris_015_5_Message") & NL & _
+dapatResource("L_BantuUris_015_6_Message") & NL & _
+dapatResource("L_BantuUris_015_7_Message") & NL & _
+dapatResource("X_BantuUris_015_8_Message") & NL & _
+dapatResource("L_BantuUris_015_9_Message") & NL & _
+dapatResource("L_BantuUris_016_0_Message") & NL & _
+dapatResource("L_BantuUris_017_0_Message") & NL & _
+dapatResource("L_BantuUris_018_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_SeeAlso_Title_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Uris_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Aliases_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Input_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Switches_Message")
+End Sub
+
+'''''''''''''''''''''
+' Bantu - ALIAS
+Private Sub BantuAlias(stream)
+dim NL 
+NL = vbNewLine
+stream.WriteLine _
+dapatResource("L_BantuAlias_001_0_Message") & NL & _
+dapatResource("L_BantuAlias_002_0_Message") & NL & _
+dapatResource("L_BantuAlias_003_0_Message") & NL & _
+dapatResource("X_BantuAlias_004_0_Message") & NL & _
+dapatResource("X_BantuAlias_005_0_Message") & NL & _
+dapatResource("X_BantuAlias_006_0_Message") & NL & _
+dapatResource("X_BantuAlias_007_0_Message") & NL & _
+dapatResource("X_BantuAlias_008_0_Message") & NL & _
+dapatResource("X_BantuAlias_009_0_Message") & NL & _
+dapatResource("L_BantuAlias_010_0_Message") & NL & _
+dapatResource("L_BantuAlias_011_0_Message") & NL & _
+dapatResource("x_BantuAlias_012_0_Message") & NL & _
+dapatResource("L_BantuAlias_013_0_Message") & NL & _
+dapatResource("L_BantuAlias_014_0_Message") & NL & _
+dapatResource("X_BantuAlias_015_0_Message") & NL & _
+dapatResource("L_Bantu_Blank_0_Message") & NL & _
+dapatResource("L_Bantu_SeeAlso_Title_Message") & NL & _
+dapatResource("X_Bantu_SeeAlso_Aliases_Message")
+End Sub
+") & NL & _
 dapatResource("X_BantuFilter_017_0_Message") & NL & _
 dapatResource("L_BantuFilter_018_0_Message") & NL & _
 dapatResource("X_BantuFilter_019_0_Message") & NL & _
