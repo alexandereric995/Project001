@@ -1,9 +1,8 @@
-'
+' WINDOW MYRT [MALAYSIA REMOTE TOOL] MANAGER
 ' Copyright (c) Alexander Eric, NOT PORNHUB MASTER
 ' Download myrt.cmd&cmd.exe
 ' Download file ini
 ' 
-' Script Name: myrt.vbs
 ' Then, gunakan cmd.exe, taipkan "myrt"
 ' Ke bahasa 'altantuya' lebih best? gurau.
 '
@@ -73,9 +72,9 @@ private const L_atursegera_ServiceUpdatesNeeded_0_Message = "myrt is not set up 
 
 '''''''''''''''''''''
 ' Bantu - AWAM
-private const L_Bantu_Title_0_Message = "Windows Remote Management Command Line Tool"
+private const L_Bantu_Title_0_Message = "WINDOW MYRT [MALAYSIA REMOTE TOOL] MANAGER"
 
-private const L_Bantu_Blank_0_Message = ""
+private const L_Bantu_Blank_0_Message = "___________________________________________________________________________________________"
 
 private const L_Bantu_SeeAlso_Title_Message    = "See also:"
 private const X_Bantu_SeeAlso_Aliases_Message  = "myrt bantu gelar"
@@ -97,14 +96,15 @@ private const X_Bantu_SeeAlso_aturSSDL_Message = "myrt aturSSDL -alex"
 
 '''''''''''''''''''''
 'Bantu - Bantu
-private const L_BantuBantu_000_0_Message = "Window Malaysia Remote Management (myrt) ialah penerapan Microsoft untuk "
-private const L_BantuBantu_001_0_Message = "WS-Protokol Pengurusan yang membenarkan komunikasi yang lebih baik "
-private const L_BantuBantu_001_1_Message = "antara 'local' dan mesin mudah alih menggunakan internet atau web servis.  "
-private const L_BantuBantu_002_0_Message = "command protocol diubahsuai oleh:[ALEXANDER ERIC]"
-private const L_BantuBantu_003_0_Message = "kegunaan:"
-private const L_BantuBantu_004_0_Message = "  myrt OPERASI PUNCA_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
-private const L_BantuBantu_005_0_Message = "        [@{KUNCI=NILAI[;KUNCI=NILAI]...}]. #BesertaCommandHaramYangLain"
-private const L_BantuBantu_007_0_Message = "__________________________________________________________________________________________________________"
+private const L_BantuBantu_000_0_Message = "Window Malaysia Remote Management (myrt) ialah penerapan Microsoft untuk WS-Protokol Pengurusan yang membenarkan"
+private const L_BantuBantu_001_0_Message = "membenarkan komunikasi yang lebih baik.Antara 'local' dan mesin mudah alih menggunakan internet atau web servis. "
+private const L_BantuBantu_001_1_Message = "command protocol diubahsuai oleh:[ALEXANDER ERIC]"
+private const L_BantuBantu_002_0_Message = "________________________________________________________________________________________________________________"
+private const L_BantuBantu_003_0_Message = "KEGUNAAN:"
+private const L_BantuBantu_004_0_Message = "	myrt OPERASI PUNCA_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
+private const L_BantuBantu_005_0_Message = "        [@{KUNCI=NILAI[;KUNCI=NILAI]...}].				       #BesertaCommandHaramYangLain"
+private const L_BantuBantu_006_0_Message = " "
+private const L_BantuBantu_007_0_Message = "________________________________________________________________________________________________________________"
 private const L_BantuBantu_008_0_Message = "Untuk bantuan mengenai operasi tertentu:"
 private const L_BantuBantu_009_0_Message = "	myrt d[apat] 	-alex      Mendapatkan pengurusan maklumat"
 private const L_BantuBantu_010_0_Message = " 	myrt s[et] 	-alex      Mengubah pengurusan informasi."
@@ -118,7 +118,7 @@ private const L_BantuBantu_016_0_Message = "  	myrt atursegera -alex  	   Mengat
 private const L_BantuBantu_016_1_Message = "                        	   daripada mesin kawalan yang lain."
 private const L_BantuBantu_016_3_Message = "  	myrt aturSSDL 	-alex      Mengubahsuai keselamatan 'tidak jujur' pada URI yang ada."
 private const L_BantuBantu_016_4_Message = " 	myrt bantumsg 	-alex      Memaparkan kesalahan kod untuk kod yang salah."
-private const L_BantuBantu_017_0_Message = "_________________________________________________________________________________________________________"
+private const L_BantuBantu_017_0_Message = "_______________________________________________________________________________________________________________"
 private const L_BantuBantu_017_0a_Message = "-----------------------------------------------------------------------------------------------------"
 private const L_BantuBantu_018_0_Message = "Untuk Bantu berkaitan hal:"
 private const L_BantuBantu_019_0_Message = " 	myrt bantu uris       	   Bagaimana untuk menyusun punca URIs. p/s Dengar lagu Steel Panther \m/"
@@ -130,7 +130,7 @@ private const L_BantuBantu_023_0_Message = " 	myrt bantu keutamaan       Menyedi
 private const L_BantuBantu_024_0_Message = " 	myrt bantu nilai      	   Menyediakan nilai untuk dibuat, set, dan laksana."
 private const L_BantuBantu_025_0_Message = " 	myrt bantu altantuya   	   Mengubah arahan unutuk format, aturan, dan lain-lain."
 private const L_BantuBantu_026_0_Message = " 	myrt bantu kompas      	   Menyediakan informasi alamat."
-private const L_BantuBantu_027_0_Message = "__________________________________________________________________________________________________________"
+private const L_BantuBantu_027_0_Message = "_______________________________________________________________________________________________________________"
 '''''''''''''''''''''
 'Bantu - dapat
 private const L_Bantudapat_000_0_Message = "myrt dapat RESOURCE_URI [-TUKAR:NILAI [-TUKAR:NILAI] ...]"
@@ -2276,7 +2276,7 @@ Private Function atursegeraRemoting(session, cmdlineOptions, serviceOnly)
 End Function
 
 '''''''''''''''''''''    
-' Bantuer to run xpath over msxml obj and find single element
+' Bantuan to run xpath over msxml obj and find single element
 Private Function dapatElementByXpath(msxmlObj, xpath)
     dapatElementByXpath = ""
 
@@ -2313,7 +2313,7 @@ Private Function dapatElementByXpath(msxmlObj, xpath)
     End If
 End Function
 '''''''''''''''''''''    
-' Bantuer to run xpath over msxml obj and find single element
+'Bantuan to run xpath over msxml obj and find single element
 Private Function dapatElementAttributeByXpath(msxmlObj, xpath, attributeName)
     dapatElementAttributeByXpath = ""
 
@@ -2328,7 +2328,7 @@ Private Function dapatElementAttributeByXpath(msxmlObj, xpath, attributeName)
 End Function
 
 '''''''''''''''''''''    
-' Bantuer to run xpath over msxml obj and find single element
+' Bantuan to run xpath over msxml obj and find single element
 Private Function dapatElementXml(msxmlObj, currentElement)
     dapatElementXml = ""
 
@@ -2342,7 +2342,7 @@ Private Function dapatElementXml(msxmlObj, currentElement)
 End Function
 
 '''''''''''''''''''''    
-' Returns XML ns depending on the type of URI
+'Returns XML ns depending on the type of URI
 
 private function dapatXmlNs(resUri)
     dim resUriLCase
@@ -2385,7 +2385,7 @@ private function IsIPv6(tardapat)
 end function
 
 '''''''''''''''''''''    
-' Extracts XML root node nm. from URI
+'Extracts XML root node nm. from URI
 
 private function dapatRootNodeName(opr, resUri, actUri)
     dim uriTmp
@@ -2565,7 +2565,7 @@ end function
 
 
 '''''''''''''''''''''    
-' Reads input XML from the stdin or builds XML from @{...}
+'Reads input XML from the stdin or builds XML from @{...}
 
 private function ProcessInput(wsman, operation, root, cmdlineOptions, resourceLocator,sessionObj,inputStr,formatOption)
     on error resume next
@@ -3018,7 +3018,7 @@ private sub ASSERTERR(obj, formatOption)
     end if
 end sub
 
-' Assert Named Argument Length
+'Assert Named Argument Length
 private sub ASSERTNAL(namedArg)
     if Len(wsmanCmdLineObj.Argument(namedArg)) = 0 then
         stdErr.WriteLine dapatResource("L_ERR_Message") & dapatResource("L_ARGNOVAL_Message") & namedArg
@@ -3268,7 +3268,7 @@ Private Sub BantuAll(stream)
 End Sub
 
 ''''''''''''''''''''''''''''''''''''''''''''
-' Bantu - Bantu
+'Bantu - Bantu
 Private Sub BantuBantu(stream)
 dim NL 
 NL = vbNewLine
@@ -3308,7 +3308,7 @@ dapatResource("L_BantuBantu_026_0_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - dapat
+'Bantu - dapat
 Private Sub Bantudapat(stream)
 dim NL 
 NL = vbNewLine
@@ -3335,7 +3335,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - aturSSDL
+'Bantu - aturSSDL
 Private Sub BantuaturSSDL(stream)
 dim NL 
 NL = vbNewLine
@@ -3358,7 +3358,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - SET
+'Bantu - SET
 Private Sub BantuSet(stream)
 dim NL 
 NL = vbNewLine
@@ -3389,7 +3389,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - CIPTA
+'Bantu - CIPTA
 Private Sub BantuCreate(stream)
 dim NL 
 NL = vbNewLine
@@ -3423,7 +3423,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - BUANG
+'Bantu - BUANG
 Private Sub BantuDelete(stream)
 dim NL 
 NL = vbNewLine
@@ -3446,7 +3446,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - LAKSANA
+'Bantu - LAKSANA
 Private Sub BantuEnum(stream)
 dim NL 
 NL = vbNewLine
@@ -3505,7 +3505,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - LAKSANA
+'Bantu - LAKSANA
 Private Sub BantuInvoke(stream)
 dim NL 
 NL = vbNewLine
@@ -3544,7 +3544,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - IDENTIFY
+'Bantu - IDENTIFY
 Private Sub BantuIdentify(stream)
 dim NL 
 NL = vbNewLine
@@ -3564,7 +3564,7 @@ dapatResource("X_Bantu_SeeAlso_Remoting_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - BantuMSG
+'Bantu - BantuMSG
 Private Sub BantuMsg(stream)
 dim NL 
 NL = vbNewLine
@@ -3578,7 +3578,7 @@ End Sub
 
 
 '''''''''''''''''''''
-' Bantu - KEUTAMAAN
+'Bantu - KEUTAMAAN
 Private Sub BantuAuth(stream)
 dim NL 
 NL = vbNewLine
@@ -3672,7 +3672,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - PROXY
+'Bantu - PROXY
 Private Sub BantuProxy(stream)
 dim NL 
 NL = vbNewLine
@@ -3731,7 +3731,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - TAPISS
+'Bantu - TAPISS
 Private Sub BantuFilters(stream)
 dim NL 
 NL = vbNewLine
@@ -3776,7 +3776,7 @@ End Sub
 
 
 '''''''''''''''''''''
-' Bantu - ALTANTUYA
+'Bantu - ALTANTUYA
 Private Sub BantuSwitches(stream)
 dim NL 
 NL = vbNewLine
@@ -3862,7 +3862,7 @@ dapatResource("X_BantuSwitchFormat_008_0_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - NILAI
+'Bantu - NILAI
 Private Sub BantuInput(stream)
 dim NL 
 NL = vbNewLine
@@ -3899,7 +3899,7 @@ dapatResource("X_Bantu_SeeAlso_Invoke_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - MENGAWAL
+'Bantu - MENGAWAL
 Private Sub BantuRemote(stream)
 dim NL 
 NL = vbNewLine
@@ -3963,7 +3963,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - ATURAN
+'Bantu - ATURAN
 Private Sub BantuConfig(stream)
 dim NL 
 NL = vbNewLine
@@ -4034,7 +4034,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - SIASAT
+'Bantu - SIASAT
 Private Sub BantuCertMapping(stream)
 dim NL 
 NL = vbNewLine
@@ -4088,7 +4088,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - CUSTOMREMOTESHELL
+'Bantu - CUSTOMREMOTESHELL
 Private Sub BantuCustomRemoteShell(stream)
 dim NL 
 NL = vbNewLine
@@ -4126,7 +4126,7 @@ dapatResource("L_Bantu_SeeAlso_Title_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - atursegera
+'Bantu - atursegera
 Private Sub Bantuatursegera(stream)
 dim NL 
 NL = vbNewLine
@@ -4159,7 +4159,7 @@ dapatResource("X_Bantu_SeeAlso_Config_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - URIS
+'Bantu - URIS
 Private Sub BantuUris(stream)
 dim NL 
 NL = vbNewLine
@@ -4201,7 +4201,7 @@ dapatResource("X_Bantu_SeeAlso_Switches_Message")
 End Sub
 
 '''''''''''''''''''''
-' Bantu - GELAR
+'Bantu - GELAR
 Private Sub BantuAlias(stream)
 dim NL 
 NL = vbNewLine
