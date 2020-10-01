@@ -1,5 +1,5 @@
 '
-' Copyright (c) Alexander Eric, Microsoft Corporation.  All rights reserved.
+' Copyright (c) Alexander Eric. 
 '
 ' VBScript Source File
 '
