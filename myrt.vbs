@@ -5,7 +5,8 @@
 ' 
 ' Script Name: myrt.vbs
 ' Then, gunakan cmd.exe, taipkan "myrt"
-.
+' Ke bahasa 'altantuya' lebih best? gurau.
+'
 
 Option Explicit
 
