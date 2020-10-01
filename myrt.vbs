@@ -11,12 +11,12 @@
 Option Explicit
 
 '''''''''''''''''''''
-' Error codes
+' Kesalahan Kod
 private const ERR_OK              = 0
 private const ERR_GENERAL_FAILURE = 1
 
 '''''''''''''''''''''
-' Messages
+' Contoh Uras
 private const L_ONLYCSCRIPT_Message     = "Can be executed only by cscript.exe."
 private const L_UNKOPNM_Message         = "Unknown operation name: "
 private const L_OP_Message              = "Operation - "
@@ -88,7 +88,7 @@ private const X_Bantu_SeeAlso_Switches_Message = "myrt bantu altantuya"
 private const X_Bantu_SeeAlso_Uris_Message     = "myrt bantu uris"
 private const X_Bantu_SeeAlso_Auth_Message     = "myrt bantu keutamaan"
 private const X_Bantu_SeeAlso_Set_Message      = "myrt set -alex"
-private const X_Bantu_SeeAlso_Create_Message   = "  myrt create -alex"
+private const X_Bantu_SeeAlso_Create_Message   = "myrt create -alex"
 private const X_Bantu_SeeAlso_Enumerate_Message   = "myrt enumerate -alex"
 private const X_Bantu_SeeAlso_Invoke_Message   = "myrt invoke -alex"
 private const X_Bantu_SeeAlso_Remoting_Message = "myrt bantu mengawal"
@@ -106,29 +106,29 @@ private const L_BantuBantu_004_0_Message = "  myrt OPERASI PUNCA_URI [-TUKAR:NIL
 private const L_BantuBantu_005_0_Message = "        [@{KUNCI=NILAI[;KUNCI=NILAI]...}]"
 private const L_BantuBantu_007_0_Message = ""
 private const L_BantuBantu_008_0_Message = "Untuk bantu mengenai operasi tertentu:"
-private const L_BantuBantu_009_0_Message = "  myrt d[apat] -alex      Mendapatkan pengurusan maklumat"
-private const L_BantuBantu_010_0_Message = "  myrt s[et] -alex        Mengubah pengurusan informasi."
-private const L_BantuBantu_011_0_Message = "  myrt c[ipta] -alex     Mencipta punca pengurusan segera."
-private const L_BantuBantu_012_0_Message = "  myrt b[uang] -alex     Membuang punca pengurusan segera."
-private const L_BantuBantu_013_0_Message = "  myrt s[enarai] -alex  Senarai semua punca pengurusan segera."
-private const L_BantuBantu_014_0_Message = "  myrt l[aksana] -alex     Menlaksanakan langkah untuk punca pengurusan."
-private const L_BantuBantu_015_0_Message = "  myrt id[entiti] -alex   Memastikan jika kawalan pengurusan diadakan"
-private const L_BantuBantu_015_1_Message = "                        pada mesin kawalan anda."
-private const L_BantuBantu_016_0_Message = "  myrt atursegera -alex  Mengatur mesin untuk menerima system kawalan "
-private const L_BantuBantu_016_1_Message = "                        daripada mesin kawalan yang lain."
-private const L_BantuBantu_016_3_Message = "  myrt aturSSDL -alex   Mengubahsuai keselamatan 'tidak jujur' pada URI yang ada."
-private const L_BantuBantu_016_4_Message = " myrt bantumsg -alex      Memaparkan kesalahan kod untuk kod yang salah."
+private const L_BantuBantu_009_0_Message = "	myrt d[apat] 	-alex      Mendapatkan pengurusan maklumat"
+private const L_BantuBantu_010_0_Message = " 	myrt s[et] 	-alex      Mengubah pengurusan informasi."
+private const L_BantuBantu_011_0_Message = "  	myrt c[ipta] 	-alex      Mencipta punca pengurusan segera."
+private const L_BantuBantu_012_0_Message = " 	myrt b[uang] 	-alex      Membuang punca pengurusan segera."
+private const L_BantuBantu_013_0_Message = "  	myrt s[enarai] 	-alex  	   Senarai semua punca pengurusan segera."
+private const L_BantuBantu_014_0_Message = "  	myrt l[aksana] 	-alex      Menlaksanakan langkah untuk punca pengurusan."
+private const L_BantuBantu_015_0_Message = "  	myrt id[entiti] -alex      Memastikan jika kawalan pengurusan diadakan"
+private const L_BantuBantu_015_1_Message = "                        	   pada mesin kawalan anda."
+private const L_BantuBantu_016_0_Message = "  	myrt atursegera -alex  	   Mengatur mesin untuk menerima system kawalan "
+private const L_BantuBantu_016_1_Message = "                        	   daripada mesin kawalan yang lain."
+private const L_BantuBantu_016_3_Message = "  	myrt aturSSDL 	-alex      Mengubahsuai keselamatan 'tidak jujur' pada URI yang ada."
+private const L_BantuBantu_016_4_Message = " 	myrt bantumsg 	-alex      Memaparkan kesalahan kod untuk kod yang salah."
 private const L_BantuBantu_017_0_Message = ""
 private const L_BantuBantu_018_0_Message = "Untuk Bantu berkaitan hal:"
-private const L_BantuBantu_019_0_Message = " myrt bantu uris       Bagaimana untuk menyusun punca URIs."
-private const L_BantuBantu_020_0_Message = " myrt bantu gelar    Gelaran lain untuk URIs."
-private const L_BantuBantu_021_0_Message = " myrt bantu aturan     Mengatur myrt client dan aturan servis."
-private const L_BantuBantu_021_2_Message = " myrt bantu siasat Mengatur kemasukkan sjil client."
-private const L_BantuBantu_022_0_Message = " myrt bantu mengawal   Bagaimana untuk memasuki kawalan mesin."
-private const L_BantuBantu_023_0_Message = " myrt bantu keutamaan       Menyediakan kebenaran untuk kemasukkan kawalan."
-private const L_BantuBantu_024_0_Message = " myrt bantu nilai      Menyediakan nilai untuk dibuat, set, dan laksana."
-private const L_BantuBantu_025_0_Message = " myrt bantu altantuya   Mengubah arahan unutuk format, aturan, dan lain-lain."
-private const L_BantuBantu_026_0_Message = " myrt bantu kompas      Menyediakan informasi alamat."
+private const L_BantuBantu_019_0_Message = " 	myrt bantu uris       	   Bagaimana untuk menyusun punca URIs."
+private const L_BantuBantu_020_0_Message = " 	myrt bantu gelar    	   Gelaran lain untuk URIs."
+private const L_BantuBantu_021_0_Message = " 	myrt bantu aturan     	   Mengatur myrt client dan aturan servis."
+private const L_BantuBantu_021_2_Message = " 	myrt bantu siasat 	   Mengatur kemasukkan sjil client."
+private const L_BantuBantu_022_0_Message = " 	myrt bantu mengawal   	   Bagaimana untuk memasuki kawalan mesin."
+private const L_BantuBantu_023_0_Message = " 	myrt bantu keutamaan       Menyediakan kebenaran untuk kemasukkan kawalan."
+private const L_BantuBantu_024_0_Message = " 	myrt bantu nilai      	   Menyediakan nilai untuk dibuat, set, dan laksana."
+private const L_BantuBantu_025_0_Message = " 	myrt bantu altantuya   	   Mengubah arahan unutuk format, aturan, dan lain-lain."
+private const L_BantuBantu_026_0_Message = " 	myrt bantu kompas      	   Menyediakan informasi alamat."
 
 '''''''''''''''''''''
 ' Bantu - dapat
