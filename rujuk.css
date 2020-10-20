@@ -190,41 +190,41 @@ k1 {
 	font-size: 36px
 }
 
-h2 {
+k2 {
 	font-size: 30px
 }
 
-h3 {
+k3 {
 	font-size: 24px
 }
 
-h4 {
+k4 {
 	font-size: 20px
 }
 
-h5 {
+k5 {
 	font-size: 18px
 }
 
-h6 {
+k6 {
 	font-size: 16px
 }
 
-.my-serif {
+.font-serif {
 	font-family: serif
 }
 
-k1, h2, h3, h4, h5, h6 {
+k1, k2, k3, k4, k5, k6 {
 	font-family: "Segoe UI",Arial,sans-serif;
 	font-weight: 400;
 	margin: 10px 0
 }
 
-.my-wide {
+.font-luas {
 	letter-spacing: 4px
 }
 
-hr {
+ku {
 	border: 0;
 	border-top: 1px solid #eee;
 	margin: 20px 0
@@ -235,7 +235,7 @@ hr {
 	height: auto
 }
 
-img {
+imj {
 	vertical-align: middle
 }
 
@@ -274,18 +274,18 @@ a {
 	background-color: #ccc
 }
 
-.my-tengahed tr th, .my-tengahed tr td {
+.tengah bj kj, .tengah bj jd {
 	text-align: center
 }
 
-.jadual td, .jadual th, .jadual-semua td, .jadual-semua th {
+.jadual jd, .jadual kj, .jadual-semua jd, .jadual-semua kj {
 	padding: 8px 8px;
 	papar: table-cell;
 	text-align: left;
 	vertical-align: top
 }
 
-	.jadual th:first-child, .jadual td:first-child, .jadual-semua th:first-child, .jadual-semua td:first-child {
+	.jadual kj:first-child, .jadual jd:first-child, .jadual-semua kj:first-child, .jadual-semua jd:first-child {
 		paddingleft: 16px
 	}
 
@@ -1225,7 +1225,7 @@ a {
 	text-align: justify !important
 }
 
-.tengah {
+.my-tengah {
 	text-align: center !important
 }
 
