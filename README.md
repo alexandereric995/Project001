@@ -1,0 +1,2 @@
+# Project001
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/acea2dfd042741b98a85b6f02fc4aba6)](https://app.codacy.com/gh/alexandereric995/Project001?utm_source=github.com&utm_medium=referral&utm_content=alexandereric995/Project001&utm_campaign=Badge_Grade)
